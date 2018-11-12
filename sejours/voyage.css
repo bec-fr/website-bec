@@ -1,0 +1,100 @@
+.h1visi
+{
+font-size:10px;
+display:inline;
+font-weight:normal;
+font-family:Arial,Helvetica,sans-serif;
+color:#666666;
+}
+
+.accroche
+{
+color:red;
+font-size:19px;
+font-weight:normal;
+
+}
+
+.redac{color:#666666; font-size:11px; text-decoration:none; font-family:Arial,Helvetica,sans-serif; text-align:justify;}
+.redac a{color:#666666; font-size:11px; text-decoration:none; font-family:Arial,Helvetica,sans-serif;}
+.redac a:hover{color:#666666; font-size:11px; text-decoration:none; font-family:Arial,Helvetica,sans-serif;}
+.redac a:visited{color:#666666; font-size:11px; text-decoration:none; font-family:Arial,Helvetica,sans-serif;}
+.redac strong{color:#666666; font-size:11px; text-decoration:underline; font-family:Arial,Helvetica,sans-serif;}
+.redac em{color:#666666; font-size:11px; text-decoration:underline; font-family:Arial,Helvetica,sans-serif;}
+
+.liensbas{color:#666666; font-size:10px; text-decoration:none; font-family:Arial,Helvetica,sans-serif; text-align:justify;}
+.liensbas a{color:#666666; font-size:10px; text-decoration:none; font-family:Arial,Helvetica,sans-serif;}
+.liensbas a:hover{color:#666666; font-size:10px; text-decoration:none; font-family:Arial,Helvetica,sans-serif;}
+.liensbas a:visited{color:#666666; font-size:10px; text-decoration:none; font-family:Arial,Helvetica,sans-serif;}
+
+
+.bouton_bord_gauche
+{
+width : 10px;
+height: 42px;
+float : left;
+}
+
+.bouton_bord_droit
+{
+width : 10px;
+height: 42px;
+float : left;
+}
+
+.bouton_centre_jaune
+{
+background-image: url("images/bouton_centre_jaune.png");
+background-repeat: repeat-x;
+height: 42px;
+line-height: 18px;
+float: left;
+font-size: 14px;
+font-weight: bold;
+color: white;
+text-decoration: underline;
+width:270px;
+text-align:center;
+}
+
+.bouton_centre_rouge
+{
+background-image: url("images/bouton_centre_rouge.png");
+background-repeat: repeat-x;
+height: 42px;
+line-height: 32px;
+float: left;
+font-size: 14px;
+font-weight: bold;
+color: white;
+text-decoration: underline;
+width:270px;
+text-align:center;
+}
+
+.bouton_centre_violet
+{
+background-image: url("images/bouton_centre_violet.png");
+background-repeat: repeat-x;
+height: 42px;
+line-height: 18px;
+float: left;
+font-size: 14px;
+font-weight: bold;
+color: white;
+text-decoration: underline;
+width:270px;
+text-align:center;
+}
+
+.bouton_centre_jaune a{color: white; text-decoration: underline;}
+.bouton_centre_jaune a:hover{color: white; text-decoration: underline;font-size: 15px;}
+.bouton_centre_jaune a:visited{color: white; text-decoration: underline;}
+
+.bouton_centre_rouge a{color: white; text-decoration: underline;}
+.bouton_centre_rouge a:hover{color: white; text-decoration: underline;font-size: 15px;}
+.bouton_centre_rouge a:visited{color: white; text-decoration: underline;}
+
+.bouton_centre_violet a{color: white; text-decoration: underline;}
+.bouton_centre_violet a:hover{color: white; text-decoration: underline;font-size: 15px;}
+.bouton_centre_violet a:visited{color: white; text-decoration: underline;}

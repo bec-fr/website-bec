@@ -1,0 +1,278 @@
+<? 
+
+include("inc/conf.php");
+
+if($_SERVER['HTTP_HOST']!="192.168.1.201"){
+
+	if(!stristr($_SERVER["HTTP_HOST"], 'www')){
+
+		header("HTTP/1.1 301 Moved Permanently");
+
+		header("Location: ".$url_site.$_SERVER["REQUEST_URI"]);
+
+		exit();
+
+	}
+
+	
+
+	if($_SERVER["HTTP_HOST"]!=$url_site2){
+
+		header("HTTP/1.1 301 Moved Permanently");
+
+		header("Location: ".$url_site.$_SERVER["REQUEST_URI"]);
+
+		exit();
+
+	}
+
+}
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Stage linguistique - cours de langues - voyage linguistique - voyages scolaires &eacute;tranger</title>
+
+<meta name="description" content="Le British European Centre vous propose des s&eacute;jours linguistiques de qualit&eacute; pour votre enfant, votre classe ou vous-m&ecirc;me. Sans plus attendre, venez d&eacute;couvrir nos voyages !" />
+
+<meta name="google-site-verification" content="qvPWx5epK-HtyqffDAoAjrGzo8j-07ABulbzlRTUtB4" />
+
+<style type="text/css">
+
+<!--
+
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	background-image:url(images/fond_intro.jpg);
+
+	background-position:top;
+
+	background-repeat:repeat-x;
+
+	background-color:#FFF;
+
+}
+
+.texteBas{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	color: #95C0D7;
+
+}
+
+.lienBas{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	color: #95C0D7;
+
+	text-decoration:none;
+
+}
+
+.lienBas:hover{
+
+	color:#009EE1;
+
+}
+
+.texteBlanc{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	color: #FFF;	
+
+}
+
+.lienBlanc{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	color: #FFF;
+
+	text-decoration:none;
+
+}
+
+.lienBlanc:hover{
+
+	color:#000;
+
+}
+
+-->
+
+</style>
+
+<script src="pngfixall.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23572560-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+
+
+<body>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+
+    <td width="394" align="right" valign="top">&nbsp;</td>
+
+    <td width="606" height="105" valign="bottom"><img src="images/titre_intro.png" width="373" height="71" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="394" align="right" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td align="right"><a href="http://www.becfrance.com"><img src="images/logo_intro.png" width="296" height="298" border="0" /></a></td>
+
+      </tr>
+
+      <tr>
+
+        <td align="left" class="texteBas" style="padding-left:50px;"><strong>BRITISH EUROPEAN CENTRE</strong><br />
+
+          13 RUE SAINT S&Eacute;BASTIEN<br />
+
+          75011 PARIS<br />
+
+          <strong>T&Eacute;L : 01 55 35 25 00 / FAX : 01 42 60 36 55</strong><br />
+
+          <img src="images/ligne_sep_intro.gif" width="180" height="1" style="padding-bottom:2px; padding-top:2px;" /><br />
+
+          <a href="http://www.amenothes.com" target="_blank" class="lienBas">R&Eacute;ALIS&Eacute; PAR AMENOTHES CONCEPTION</a></td>
+
+      </tr>
+
+    </table></td>
+
+    <td width="606" align="left" valign="top" style="background-image:url(images/fond_contenu_intro.png); background-position:top left; background-repeat:no-repeat;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+      <tr>
+
+        <td height="35">&nbsp;</td>
+
+      </tr>
+
+      <tr>
+
+        <td height="22" class="texteBlanc" style="padding-left:15px;">[ <a href="qui.php" class="lienBlanc">QUI SOMMES-NOUS ?</a> ]&nbsp;&nbsp;&nbsp;[ <a href="qualite.php" class="lienBlanc">QUALIT&Eacute;</a> ]&nbsp;&nbsp;&nbsp;[ <a href="contact.php" class="lienBlanc">CONTACT</a> ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choisissez une catégorie ci-dessous</td>
+
+      </tr>
+
+      <tr>
+
+        <td align="left" style="padding-left:5px;"><table border="0" cellpadding="0" cellspacing="0">
+
+          <tr>
+
+            <td align="center"><a href="sejours-linguistiques-pour-etudiants-adultes.html"><img src="images/intro_etudiant.png" width="173" height="299" border="0" /></a></td>
+
+            <td align="center"><a href="sejours-linguistiques-pour-adolescents.html"><img src="images/intro_junior.png" width="173" height="299" border="0" /></a></td>
+
+            <td align="center"><a href="voyages-scolaires-et-circuits-linguistiques.html"><img src="images/intro_sejour.png" width="173" height="299" border="0" /></a></td>
+
+          </tr>
+
+        </table></td>
+
+      </tr>
+
+      <tr>
+
+        <td style="padding-left:5px; padding-top:1px;"><table width="519" border="0" cellpadding="0" cellspacing="0">
+
+          <tr>
+
+            <td align="center"><img src="images/intro_ombre_btn.gif" width="519" height="56" /></td>
+
+            </tr>
+
+        </table></td>
+
+      </tr>
+
+    </table></td>
+
+  </tr>
+
+</table>
+<div style="color:#95C0D7; font-size:10px; text-decoration:none; width:750px; text-align:justify; margin-left:auto; margin-right:auto; padding-top:100px; font-family:Arial,Helvetica,sans-serif; padding-left:50px;">
+Vous envisagez de faire un <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/bec-france.php">voyage linguistique en Angleterre</a>, un <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/stage-linguistique-new-york.php">stage linguistique &agrave; New York</a>, &agrave; Sydney... ? 
+<br />
+En plus de vous permettre de faire un <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/stage-linguistique-anglais.php">stage linguistique d'anglais</a>, notre organisme propose diff&eacute;rents <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/voyage-linguistique-europe.php">voyages linguistiques en Europe</a>, comme des <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/voyages-scolaires-italie.php">voyages scolaires en Italie</a>, des <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/voyages-scolaires-educatifs-berlin.php">voyages scolaire &eacute;ducatifs &agrave; Berlin</a>, des <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/voyages-scolaires-espagne.php">voyages scolaires en Espagne</a>... Profitez de <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/voyages-scolaires-educatifs-etranger.php">voyages scolaires &eacute;ducatifs &agrave; l'&eacute;tranger</a> pour allier l'apprentissage d'une langue et une exp&eacute;rience humainement forte. 
+<br />
+Vous recherchez un <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/sejour-linguistique-ado.php">s&eacute;jour linguistique pour votre ado</a>, des <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/cours-de-langues-etranger.php">cours de langues &agrave; l'&eacute;tranger</a> (<a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/cours-de-langues-londres.php">cours de langues &agrave; Londres</a>, <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/cours-de-langues-new-york.php">cours de langues &agrave; New York</a>...), des <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/sejours-scolaires-educatifs.php">s&eacute;jours scolaires &eacute;ducatifs</a>, un <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/stage-linguistique-pas-cher.php">stage linguistique pas cher</a> ? Le BEC est la solution qu'il vous faut ! <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/voyages-scolaires.php">Voyages scolaires</a>, <a style="color:#95C0D7; font-size:10px; text-decoration:none;" href="sejours/stage-linguistique.php">stage linguistique</a> pour ado et adultes, d&eacute;couvrez toutes nos offres pour que votre d&eacute;sir d'apprendre et de voyager se r&eacute;alise !
+</div>
+
+<script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-16546505-1']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,54 @@
+RewriteEngine on
+
+
+RedirectPermanent /devis http://www.becfrance.com/devis_minis.php
+RedirectPermanent /brochure http://www.becfrance.com/brochures-sejours-linguistiques.php
+RedirectPermanent /brochure.php http://www.becfrance.com/brochures-sejours-linguistiques.php
+RedirectPermanent /brochure_minis.php http://www.becfrance.com/brochures-sejours-linguistiques.php
+RedirectPermanent /sejours/voyages-scolaires-et-circuits-linguistiques.html http://www.becfrance.com/voyages-scolaires-et-circuits-linguistiques.html
+
+RedirectPermanent /sejours/sejours-linguistiques-pour-etudiants-adultes.html http://www.becfrance.com/sejours-linguistiques-pour-etudiants-adultes.html
+
+RedirectPermanent /sejours/sejours-linguistiques-pour-adolescents.html http://www.becfrance.com/sejours-linguistiques-pour-adolescents.html
+
+
+
+ErrorDocument 404  http://www.becfrance.com/
+
+
+
+RewriteRule ^index.html  http://www.becfrance.com/ [L,R=301]
+
+RewriteRule ^index.php  http://www.becfrance.com/ [L,R=301]
+
+
+
+RewriteRule ^sejours-linguistiques-pour-etudiants-adultes\.html$ index_adulte.php?site=adulte [L]
+
+RewriteRule ^sejours-linguistiques-pour-adolescents\.html$ index_junior.php?site=junior [L]
+
+RewriteRule ^voyages-scolaires-et-circuits-linguistiques\.html$ index_minis.php?site=minis [L]
+
+
+
+RewriteRule ^sejours-linguistiques-etudiants-adultes-([a-zA-Z0-9\-]+),([0-9]+)\.html$ ville.php?pays=$2 [L]
+
+RewriteRule ^sejour-linguistique-etudiant-adulte-cro-([a-zA-Z0-9\-]+),([0-9]+)\.html$ fiche_cro.php?fiche=$2 [L]
+
+RewriteRule ^sejour-linguistique-etudiant-adulte-([a-zA-Z0-9\-]+),([0-9]+)\.html$ fiche.php?fiche=$2 [L]
+
+
+
+RewriteRule ^sejours-linguistiques-adolescents-([a-zA-Z0-9\-]+),([0-9]+)\.html$ ville_junior.php?pays=$2 [L]
+
+RewriteRule ^sejour-linguistique-adolescent-cro-([a-zA-Z0-9\-]+),([0-9]+)\.html$ fiche_junior_cro.php?fiche=$2 [L]
+
+RewriteRule ^sejour-linguistique-adolescent-([a-zA-Z0-9\-]+),([0-9]+)\.html$ fiche_junior.php?fiche=$2 [L]
+
+
+
+RewriteRule ^voyages-scolaires-circuits-linguistiques-([a-zA-Z0-9\-]+),([0-9]+)\.html$ ville_minis.php?pays=$2 [L]
+
+RewriteRule ^voyage-scolaire-circuit-linguistique-cro-([a-zA-Z0-9\-]+),([0-9]+)\.html$ fiche_minis_cro.php?fiche=$2 [L]
+
+RewriteRule ^voyage-scolaire-circuit-linguistique-([a-zA-Z0-9\-]+),([0-9]+)\.html$ fiche_minis.php?fiche=$2 [L]

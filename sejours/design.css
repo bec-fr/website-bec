@@ -1,0 +1,321 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+body{
+	margin:0;
+	background:url(../images/fond.jpg); 
+	background-repeat:repeat-x; 
+	background-position:top;
+}
+
+#haut{
+	width:825px;
+	height:320px;
+	position:absolute;
+}
+
+.texteRose{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D3145A;
+	text-decoration:none;
+}
+a.lienRose{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #D3145A;
+	text-decoration:none;
+}
+a.lienRose:hover{
+	text-decoration:underline;
+}
+a.lienSommaire{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #005AA1;
+	text-decoration:none;
+}
+a.lienSommaire:hover{
+	text-decoration:underline;
+	color: #333333;
+}
+a.lienViolet{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9D005D;	
+	text-decoration:none;
+}
+a.lienViolet:hover{
+	text-decoration:underline;
+}
+a.lienJaune{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f6921e;
+	text-decoration:none;
+}
+a.lienJaune:hover{
+	text-decoration:underline;
+}
+a.lienRouge{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #cd2335;
+	text-decoration:none;
+}
+a.lienRouge:hover{
+	text-decoration:underline;
+}
+.texteRougeClair{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #e2001a;	
+}
+.texteJauneClair{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #faaf3b;	
+}
+
+.texteViolet{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #9D005D;	
+}
+.texteRouge{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #cd2335;	
+}
+.texteJaune{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f6921e;	
+}
+
+.texteBlanc{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;	
+}
+
+.texteBleu{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #009EE1;	
+}
+a.texteBleu{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #009EE1;	
+	text-decoration:none;
+}
+a.texteBleu:hover{
+	text-decoration:underline;
+}
+
+.texteNoir{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;	
+}
+a.lienNoir{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration:none;
+}
+a.lienNoir:hover{
+	text-decoration:underline;
+}
+
+.texteGris{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;	
+}
+a.lienGris{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	text-decoration:none;
+}
+a.lienGris:hover{
+	text-decoration:underline;
+}
+a.lienGris2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	text-decoration:underline;
+}
+a.lienGris2:hover{
+	text-decoration:none;
+}
+
+.titreViolet{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #9D005D;	
+}
+.titreRouge{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #cd2335;	
+}
+.titreJaune{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #f6921e;	
+}
+
+.lienBlanc{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-decoration:none;
+}
+.lienBlanc:hover{
+	color:#000;
+}
+.lienBlanc2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-decoration:underline;
+}
+.lienBlanc2:hover{
+	text-decoration:none;
+}
+
+.texteBas{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #A4D2EB;
+}
+
+.lienBas{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #A4D2EB;
+	text-decoration:none;
+}
+.lienBas:hover{
+	color:#2E87AF;
+}
+.tabCell_gauche{
+	border-right:thin;
+	border-right-color:#e5e5e5;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom:thin;
+	border-bottom-color:#e5e5e5;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+.tabCell_gauchebas{
+	border-right:thin;
+	border-right-color:#e5e5e5;
+	border-right-style:solid;
+	border-right-width:1px;
+}
+.tabCell_droite{
+	border-bottom:thin;
+	border-bottom-color:#e5e5e5;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+
+.tabViolet{
+	width:191px;
+	height:18px;
+	display:block;
+	background:url(../images/menuGauche.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-color:#67093e;
+	padding-left:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding-top:2px;
+	text-decoration:none;
+}
+.tabViolet:hover{
+	color:#D3145A;
+	font-weight:bold;
+	background:url(../images/menuHover.jpg);
+}
+
+.tabRouge{
+	width:191px;
+	height:18px;
+	display:block;
+	background:url(../images/menuGauche.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-color:#8d0e15;
+	padding-left:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding-top:2px;
+	text-decoration:none;
+}
+.tabRouge:hover{
+	color:#C50219;
+	font-weight:bold;
+	background:url(../images/menuHover.jpg);
+}
+
+.tabJaune{
+	width:191px;
+	height:18px;
+	display:block;
+	background:url(../images/menuGauche.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-color:#ed7902;
+	padding-left:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding-top:2px;
+	text-decoration:none;
+}
+.tabJaune:hover{
+	color:#EC700F;
+	font-weight:bold;
+	background:url(../images/menuHover.jpg);
+}
+
+
+.inputtext {
+	height:16px;
+	background-color:#FFF;
+	border-style:solid;
+	border-width:1px;
+	border-color:#BCBCBC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+.select {
+	height:18px;
+	background-color:#FFF;
+	border-style:solid;
+	border-width:1px;
+	border-color:#BCBCBC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+.textarea {
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#BCBCBC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
