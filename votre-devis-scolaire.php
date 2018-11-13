@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<? include("connect.php"); ?>
+<!--<? include("connect.php"); ?>-->
 <html lang="fr">
     <head>  
 	<meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, text/html; charset=iso-8859-1"> 
@@ -154,7 +154,7 @@ if ($_GET['m'] == 1) {
 } else {
     echo "<h3>Vos remises </h3>
             <li> <b>Une remise de 310�</b> si vous avez d�j� effectu� un voyage avec BEC
-            <li> <b>Une remise de 150�</b> pour votre premier voyage avec BEC ";
+            <li> <b>Une remisSe de 150�</b> pour votre premier voyage avec BEC ";
 }
 ?>
 
@@ -560,5 +560,5 @@ function changeListeVille() {
 }
 </script>
 
- <? include("footer_scolaires.php"); ?>          
+ <!--? include("footer_scolaires.php"); ?-->          
 			

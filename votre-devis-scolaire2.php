@@ -414,4 +414,4 @@ if ($_GET['m'] == 1) {
             }
         }
     </script>
-							   <!-- End content info--> <? include("footer_scolaires.php"); ?>          			
+							   <!-- End content info--> <!--? include("footer_scolaires.php"); ?-->          			
