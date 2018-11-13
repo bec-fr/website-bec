@@ -6,8 +6,8 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
    <title>BEC - Finaliser votre devis scolaire 2016-2017</title>  
    
-   <meta name="description" content="BEC S�jour linguistiques : Finaliser votre devis scolaire 2018-2019">   
-   <meta name="author" content="Bec S�jours Linguistiques">   
+   <meta name="description" content="BEC Séjour linguistiques : Finaliser votre devis scolaire 2018-2019">   
+   <meta name="author" content="Bec Séjours Linguistiques">   
    
    <!-- Mobile Metas -->       
    <meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1">
