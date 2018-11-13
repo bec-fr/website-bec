@@ -561,4 +561,71 @@ function changeListeVille() {
 </script>
 
  <!--? include("footer_scolaires.php"); ?-->          
-			
+			   <!--<script type="text/javascript" src='http://becfrance.cameleonapp.com/cache/include/javascript/sugar_grp1.js?v=GsVna68Y_eKoDg9ei3iqbA'></script>-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Core JS Libraries -->
+    <script src="js/jquery.min.js"></script>         
+        <!--Nav-->
+        <script type="text/javascript" src="js/nav/tinynav.js"></script> 
+        <script type="text/javascript" src="js/nav/superfish.js"></script>  
+        <script type="text/javascript" src="js/nav/hoverIntent.js"></script>              
+        <!--Totop-->
+        <script type="text/javascript" src="js/totop/jquery.ui.totop.js" ></script>  
+        <!--Slide-->
+        <script type="text/javascript" src="js/slide/camera.js" ></script>      
+        <script type='text/javascript' src='js/slide/jquery.easing.1.3.min.js'></script> 
+        <!--owlcarousel-->
+        <script type='text/javascript' src='js/owlcarousel/owl.carousel.js'></script> 
+        <!--efect_switcher-->
+        <script type='text/javascript' src='js/efect_switcher/jquery.content-panel-switcher.js'></script>         
+        <!--Theme Options-->
+        <script type="text/javascript" src="js/theme-options/theme-options4.js"></script>
+        <script type="text/javascript" src="js/theme-options/jquery.cookies.js"></script> 
+        <!-- Bootstrap.js-->
+        <script src="js/bootstrap/bootstrap.js"></script>
+        <!--fUNCTIONS-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!-- ======================= End JQuery libs =========================== -->
+		
+        
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16546505-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 971247872;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55363f1c17e3d6b1" async="async">
+</script>-->
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971247872/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!--  MouseStats:Begin  -->
+<script type="text/javascript">var MouseStats_Commands=MouseStats_Commands?MouseStats_Commands:[]; (function(){function b(){if(void 0==document.getElementById("__mstrkscpt")){var a=document.createElement("script");a.type="text/javascript";a.id="__mstrkscpt";a.src=("https:"==document.location.protocol?"https://ssl":"http://www2")+".mousestats.com/js/5/3/5371972402037218814.js?"+Math.floor((new Date).getTime()/6E5);a.async=!0;a.defer=!0;(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}}window.attachEvent?window.attachEvent("onload",b):window.addEventListener("load", b,!1);"complete"===document.readyState&&b()})(); </script>
+<!--  MouseStats:End  -->
+<script type="text/javascript">
+(function(a,e,c,f,g,b,d){var h={ak:"971247872",cl:"w6h5CLPvw1wQgKKQzwM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
+</script>
+</body>
+</html>
