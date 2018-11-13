@@ -437,7 +437,7 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 					
             </section>
             <!-- End content info-->
-			<script>
+            <script>
 function changeListeVille() {
          var paysEtVilles = {};         
          var pays = document.getElementById("destination");
@@ -560,8 +560,7 @@ function changeListeVille() {
 }
 </script>
 
- <!--? include("footer_scolaires.php"); ?-->          
-			   <!--<script type="text/javascript" src='http://becfrance.cameleonapp.com/cache/include/javascript/sugar_grp1.js?v=GsVna68Y_eKoDg9ei3iqbA'></script>-->
+    <!--<script type="text/javascript" src='http://becfrance.cameleonapp.com/cache/include/javascript/sugar_grp1.js?v=GsVna68Y_eKoDg9ei3iqbA'></script>-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -627,5 +626,6 @@ var google_remarketing_only = true;
 <script type="text/javascript">
 (function(a,e,c,f,g,b,d){var h={ak:"971247872",cl:"w6h5CLPvw1wQgKKQzwM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
 </script>
-</body>
-</html>
+
+ <!--? include("footer_scolaires.php"); ?-->          
+			
