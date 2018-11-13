@@ -260,7 +260,7 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 
                                                   
              
-                  <form style="background-color: rgba(210, 231, 216, 0.5);padding: 10px;" action="https://localhost/website-bec/votre-devis-scolaire2.php" class="form-horizontal" enctype="multipart/form-data" method="post" id="form" name="form">
+                  <form style="background-color: rgba(210, 231, 216, 0.5);padding: 10px;" action="localhost/website-bec/votre-devis-scolaire2.php" class="form-horizontal" enctype="multipart/form-data" method="post" id="form" name="form">
 				  <input type="hidden" value="0" name="ok" />
 					<div class="titles">
                                 <span>ETAPE 1/2 : votre voyage</span>
