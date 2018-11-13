@@ -2,16 +2,17 @@
 <? include("connect.php"); ?>
 <html lang="fr">
     <head>  
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />	
-        <title>Bec séjours linguistiques - Votre devis scolaire personnalisé</title> 		
+	<meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, text/html; charset=iso-8859-1"> 
+        <title>Bec sï¿½jours linguistiques - Votre devis scolaire personnalisï¿½</title> 		
         <meta name="keywords" content="Devis voyage scolaire" />
-        <meta name="description" content="Recevez votre devis scolaire personnalisé">
-        <meta name="author" content="BEC Séjours linguistiques">  
+        <meta name="description" content="Recevez votre devis scolaire personnalisï¿½">
+        <meta name="author" content="BEC Sï¿½jours linguistiques">  
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1">
         <!-- Your styles -->
         <link href="css/style.css" rel="stylesheet" media="screen">  
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
 
         <!-- Skins Theme -->
         <link href="#" rel="stylesheet" media="screen" class="skin">
@@ -59,11 +60,11 @@
 		function verifForm(){
 		a="0";
 		
-		if (document.form.destination.value.length == 0) {alert('Vous n\'avez pas renseigné votre destination.'); a="1"; document.form.destination.focus();}	
-		else if ((document.form.nb_eleve.value.length == 0) && (document.form.nb_eleve2.value.length == 0) && (document.form.nb_eleve3.value.length == 0)) {alert('Vous n\'avez pas renseigné le nombre d\'eleves.'); a="1"; document.form.nb_eleve.focus();}	
-		else if (document.form.nb_adulte.value.length == 0) {alert('Vous n\'avez pas renseigné le nombre d\'encadrants.'); a="1"; document.form.nb_adulte.focus();}		
-		else if (document.form.nb_pc.value.length == 0) {alert('Vous n\'avez pas renseigné le nombre de PC.'); a="1"; document.form.nb_pc.focus();}
-		else if (document.form.date_debut.value.length == 0) {alert('Vous n\'avez pas renseigné la date de départ.'); a="1"; document.form.date_debut.focus();}
+		if (document.form.destination.value.length == 0) {alert('Vous n\'avez pas renseignï¿½ votre destination.'); a="1"; document.form.destination.focus();}	
+		else if ((document.form.nb_eleve.value.length == 0) && (document.form.nb_eleve2.value.length == 0) && (document.form.nb_eleve3.value.length == 0)) {alert('Vous n\'avez pas renseignï¿½ le nombre d\'eleves.'); a="1"; document.form.nb_eleve.focus();}	
+		else if (document.form.nb_adulte.value.length == 0) {alert('Vous n\'avez pas renseignï¿½ le nombre d\'encadrants.'); a="1"; document.form.nb_adulte.focus();}		
+		else if (document.form.nb_pc.value.length == 0) {alert('Vous n\'avez pas renseignï¿½ le nombre de PC.'); a="1"; document.form.nb_pc.focus();}
+		else if (document.form.date_debut.value.length == 0) {alert('Vous n\'avez pas renseignï¿½ la date de dï¿½part.'); a="1"; document.form.date_debut.focus();}
 		
 		if (a == 0) {
 			document.form.ok.value = "1";
@@ -134,7 +135,7 @@
 						
 						<?php
 if ($_GET['m'] == 1) {
-    echo "Votre Offre de Fidélité 2018 -2019 ";
+    echo "Votre Offre de Fidï¿½litï¿½ 2018 -2019 ";
 } elseif ($_GET['m'] == 2) {
     echo "Votre Offre de Bienvenue 2018 -2019";
 } else {
@@ -146,14 +147,14 @@ if ($_GET['m'] == 1) {
 							
 							<?php
 if ($_GET['m'] == 1) {
-    echo "<h3>Votre Remise </h3><li> <b>Une remise immédiate de 310€</b> sur le montant global";
+    echo "<h3>Votre Remise </h3><li> <b>Une remise immï¿½diate de 310ï¿½</b> sur le montant global";
 } elseif ($_GET['m'] == 2) {
     echo "<h3>Votre Remise </h3> 
-							<li>Bénéficiez d'une <b>réduction immédiate de 150€</b> sur le budget global de votre séjour. ";
+							<li>Bï¿½nï¿½ficiez d'une <b>rï¿½duction immï¿½diate de 150ï¿½</b> sur le budget global de votre sï¿½jour. ";
 } else {
     echo "<h3>Vos remises </h3>
-            <li> <b>Une remise de 310€</b> si vous avez déjà effectué un voyage avec BEC
-            <li> <b>Une remise de 150€</b> pour votre premier voyage avec BEC ";
+            <li> <b>Une remise de 310ï¿½</b> si vous avez dï¿½jï¿½ effectuï¿½ un voyage avec BEC
+            <li> <b>Une remise de 150ï¿½</b> pour votre premier voyage avec BEC ";
 }
 ?>
 
@@ -162,30 +163,30 @@ if ($_GET['m'] == 1) {
 
 							
 							<h3 style="padding-top :35px;">En plus</h3>
-							<li><b>8 % de réduction</b> pour tout séjour avant le 31 janvier 2019 
-<li><b>4 % de réduction</b> pour tout séjour entre le 1er et le 28 février 2019 
+							<li><b>8 % de rï¿½duction</b> pour tout sï¿½jour avant le 31 janvier 2019 
+<li><b>4 % de rï¿½duction</b> pour tout sï¿½jour entre le 1er et le 28 fï¿½vrier 2019 
 <br>
 <h3 style="padding-top :35px;">Pourquoi choisir BEC ?</h3>
 </div>
 						<div class="row">
-					<div align="center" class="col-md-6 col-xs-6"><img alt="50 ans bec" width="90" class="img-responsive" src="img/50ans.png">Depuis 1967 à votre service</div>
-					<div align="center" class="col-md-6 col-xs-6"><img width="90" src="img/contrat-qualite.png"><br>Labelisé Contrat Qualité de l'Office</div>
+					<div align="center" class="col-md-6 col-xs-6"><img alt="50 ans bec" width="90" class="img-responsive" src="img/50ans.png">Depuis 1967 ï¿½ votre service</div>
+					<div align="center" class="col-md-6 col-xs-6"><img width="90" src="img/contrat-qualite.png"><br>Labelisï¿½ Contrat Qualitï¿½ de l'Office</div>
 					<div align="center" class="col-md-6 col-xs-6"><img alt="assurance" width="90" src="img/assurance.png"><br>Assurance annulation totale scolaire</div>
-					<div align="center" class="col-md-6 col-xs-6"><img   width="90"  src="img/garantie-apst.png"><br>Garantie des Fonds Déposés </div>
+					<div align="center" class="col-md-6 col-xs-6"><img   width="90"  src="img/garantie-apst.png"><br>Garantie des Fonds Dï¿½posï¿½s </div>
 					</div><br>
 					
-					<br>De 2013 à 2018 : <br><br>
+					<br>De 2013 ï¿½ 2018 : <br><br>
 					<li><font style="font-size: 18px"><b>80</b></font> destinations (<a target="_blank" href="http://www.becfrance.com/doc/brochures-scolaires-2017.pdf">cf catalogue</a>)
-					 <li><font style="font-size: 18px"><b>+ 1200</b></font> voyages organisés
-					 <li><font style="font-size: 18px"><b>+ 46.500</b></font> élèves et encadrants</b>  
+					 <li><font style="font-size: 18px"><b>+ 1200</b></font> voyages organisï¿½s
+					 <li><font style="font-size: 18px"><b>+ 46.500</b></font> ï¿½lï¿½ves et encadrants</b>  
 					
 					<br>
-					<h3 <h3 style="padding-top :35px;">Ils ont voyagé avec nous</h3>
-                            <blockquote><i>"Notre premier voyage avec BEC a été une magnifique réussite et je n'attends qu'une chose : repartir ! Merci encore et félicitations à votre équipe : Les élèves sont ravis. C'est un plaisir de travailler avec vous."</i>
-                                <small>Mme Lavillat – <cite title="Source Title">Collège St François</cite></small>
+					<h3 <h3 style="padding-top :35px;">Ils ont voyagï¿½ avec nous</h3>
+                            <blockquote><i>"Notre premier voyage avec BEC a ï¿½tï¿½ une magnifique rï¿½ussite et je n'attends qu'une chose : repartir ! Merci encore et fï¿½licitations ï¿½ votre ï¿½quipe : Les ï¿½lï¿½ves sont ravis. C'est un plaisir de travailler avec vous."</i>
+                                <small>Mme Lavillat ï¿½ <cite title="Source Title">Collï¿½ge St Franï¿½ois</cite></small>
                             </blockquote>
-							<blockquote><i>"Très bon travail de l'equipe du BEC. Bonnes visites, les élèves ont adoré. C'était impeccable !"</i>
-                                <small>Mme Philippe – <cite title="Source Title">Collège La Peyroua</cite></small>
+							<blockquote><i>"Trï¿½s bon travail de l'equipe du BEC. Bonnes visites, les ï¿½lï¿½ves ont adorï¿½. C'ï¿½tait impeccable !"</i>
+                                <small>Mme Philippe ï¿½ <cite title="Source Title">Collï¿½ge La Peyroua</cite></small>
                             </blockquote>
 
 
@@ -206,37 +207,37 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 	 echo $dest;
 	 if (($dest > 1 and $dest < 18 ) or ($dest > 41 and $dest < 49) or ($dest > 75 and $dest < 78) ) {
     echo "angleterre-irlande";
-	envoi_mail("dany@becfrance.com", "Devis Angleterre/Irlande depuis votre site Internet ".$url_site2, "Demande de devis Angleterre/Irlande depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");
+	envoi_mail("dany@becfrance.com", "Devis Angleterre/Irlande depuis votre site Internet ".$url_site2, "Demande de devis Angleterre/Irlande depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");
 } elseif ($dest > 18 and $dest < 22 ) {
     echo "italie";
-	envoi_mail("frederic@becfrance.com", "Devis Italie depuis votre site Internet ".$url_site2, "Demande de devis Italie depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");
+	envoi_mail("frederic@becfrance.com", "Devis Italie depuis votre site Internet ".$url_site2, "Demande de devis Italie depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");
 } elseif ($dest > 54 and $dest < 56  ) {
     echo "Malte";	
-	envoi_mail("caroline@becfrance.com", "Devis Malte depuis votre site Internet ".$url_site2, "Demande de devis Malte depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");
-	envoi_mail("eric@becfrance.com", "Devis Malte depuis votre site Internet ".$url_site2, "Demande de devis Malte depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");
+	envoi_mail("caroline@becfrance.com", "Devis Malte depuis votre site Internet ".$url_site2, "Demande de devis Malte depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");
+	envoi_mail("eric@becfrance.com", "Devis Malte depuis votre site Internet ".$url_site2, "Demande de devis Malte depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");
 } elseif ($dest > 21 and $dest < 36 ) {
     echo "espagne";
-	envoi_mail("caroline@becfrance.com", "Devis Espagne depuis votre site Internet ".$url_site2, "Demande de devis Espagne depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");
+	envoi_mail("caroline@becfrance.com", "Devis Espagne depuis votre site Internet ".$url_site2, "Demande de devis Espagne depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");
 	
  } elseif (($dest > 36 and $dest < 42 ) or ($dest > 69 and $dest < 73)) {
     echo "Allemagne";	
-		envoi_mail("frederic@becfrance.com", "Devis Allemagne depuis votre site Internet ".$url_site2, "Demande de devis Allemagne depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");
+		envoi_mail("frederic@becfrance.com", "Devis Allemagne depuis votre site Internet ".$url_site2, "Demande de devis Allemagne depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");
 		
  } elseif ($dest > 56 and $dest < 70 ) {
     echo "France";	
-		envoi_mail("frederic@becfrance.com", "Devis France depuis votre site Internet ".$url_site2, "Demande de devis France depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");	
+		envoi_mail("frederic@becfrance.com", "Devis France depuis votre site Internet ".$url_site2, "Demande de devis France depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");	
 		
 		
 
 } elseif ($dest > 88 and $dest < 92 ) {
     echo "Grece";	
-		envoi_mail("frederic@becfrance.com", "Devis Grece depuis votre site Internet ".$url_site2, "Demande de devis Grece depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");			
-		envoi_mail("eric@becfrance.com", "Devis Grece depuis votre site Internet ".$url_site2, "Demande de devis Grece depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");			
+		envoi_mail("frederic@becfrance.com", "Devis Grece depuis votre site Internet ".$url_site2, "Demande de devis Grece depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");			
+		envoi_mail("eric@becfrance.com", "Devis Grece depuis votre site Internet ".$url_site2, "Demande de devis Grece depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");			
 
 } elseif ($dest > 50 and $dest < 53 ) {
     echo "new york";
-   envoi_mail("caroline@becfrance.com", "Devis New-York depuis votre site Internet ".$url_site2, "Demande de devis New-York depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");	
-    envoi_mail("eric@becfrance.com", "Devis New-York depuis votre site Internet ".$url_site2, "Demande de devis New-York depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");	
+   envoi_mail("caroline@becfrance.com", "Devis New-York depuis votre site Internet ".$url_site2, "Demande de devis New-York depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");	
+    envoi_mail("eric@becfrance.com", "Devis New-York depuis votre site Internet ".$url_site2, "Demande de devis New-York depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");	
    
 }
 	 
@@ -248,7 +249,7 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 		if($extension == "pdf" || $extension == "doc"){
 			move_uploaded_file($_FILES['fic']['tmp_name'], "imagesUp/devis_minis/".$id.".".$extension);
 		}else{
-			echo "<script>alert('Le fichier envoyé n\'est pas dans un format valide.')</script>";
+			echo "<script>alert('Le fichier envoyï¿½ n\'est pas dans un format valide.')</script>";
 		}
 	}
 	
@@ -259,196 +260,147 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 
                                                   
              
-                  <form style="background-color: rgba(210, 231, 216, 0.5);padding: 10px;" action="" class="form-horizontal" enctype="multipart/form-data" method="post" id="form" name="form">
-                    <input type="hidden" value="0" name="ok" />
-					
+                  <form style="background-color: rgba(210, 231, 216, 0.5);padding: 10px;" action="localhost/website-bec/votre-devis-scolaire2.php" class="form-horizontal" enctype="multipart/form-data" method="post" id="form" name="form">
+				  <input type="hidden" value="0" name="ok" />
 					<div class="titles">
-                               
-                               
-                                <h1><i class="fa fa-edit"></i>&nbsp;Recevez votre devis personnalisé</h1> <br><br>
-
-								<span style="background-color: rgba(0,178,41,0.01);"><b>Etape 1/2 : Informations sur le séjour souhaité</b></span>  
-                             
-						  </div>
-                  
-                    
-					<div class="search_box2">
-					
-					
+                                <span>ETAPE 1/2 : votre voyage</span>
+                                <br>
+                                <h1><i class="fa fa-edit"></i>&nbsp;Etablir un devis pour un mini-sÃ©jour scolaire</h1>  
+					</div>
+                    <div class="search_box2">
+					    <div class="form-row">
+							<label class="col-md-2" >Destination  </label>
+							<div class="col-md-4">	
+                                <label > Pays &nbsp &nbsp &nbsp</label>
+                                <select name="destination" id ="destination" class="select" onchange='changeListeVille()' required>											
+                                    <option value="">- - -</option>                                    
+                                    <option value='Australie'>Australie</option>
+                                    <option value='Autriche'>Autriche</option>
+                                    <option value='Allemagne'>Allemagne</option>
+                                    <option value='Espagne'>Espagne</option>
+                                    <option value='France'>France</option>
+                                    <option value='Angleterre'>Angleterre</option>
+                                    <option value='Ecosse'>Ecosse</option>
+                                    <option value='PaysGalles'>Pays de Galles</option>
+                                    <option value='Grece'>GrÃ¨ce</option>
+                                    <option value='PaysBas'>Pays Bas</option>
+                                    <option value='Irlande'>Irlande</option>
+                                    <option value='Italie'>Italie</option>
+                                    <option value='Malte'>Malte</option>
+                                    <option value='USA'>USA</option>
+                                </select>
+						    </div>	
+                            <div class="col-md-6">	
+                                <label >Ville  </label>&nbsp &nbsp &nbsp
+                                <select name="ville" class="select" id ="ville" >											
+                                    <option value="">- - -</option>
+                                    
+                                </select>
+						    </div>	
+					    </div>	
+					    <div class="form-row">
+							<label  class="col-md-3 control-label">Nombre d'Ã©lÃ¨ves*  </label>
+							<div class="form-group col-md-3">								 
+							-16 ans <input required name="less16" type="text" value=""   size="2" />
+						    </div>
+						    <div class="form-group col-md-3">								 
+							16 /18 ans<input required name="equal16_18" type="text"  value=""  size="2" />
+						    </div>
+						    <div class="form-group col-md-3">								 	
+							+ 18 ans <input required name="more18" type="text"  value="" size="2" />
+						    </div>	
+					    </div>	
 					<div class="form-group">
-					
-							<label  class="col-sm-3 control-label">Destination*  </label>
-							<div class="col-sm-9">	
-							 
-							<select name="destination" class="select" style="font-size: 12px;">
-							
-							<? if(isset($_GET["sejour"]) && $_GET["sejour"] != "")
-							{
-							$sejour = ($_GET["sejour"]);
-							$query = "SELECT fm.*, p.nom as pays, v.nom as ville FROM fiche_minis fm INNER JOIN minis_pays p ON fm.pays = p.id INNER JOIN minis_ville v ON fm.ville = v.id WHERE fm.afficher ='1' and fm.id = $sejour ORDER BY p.nom, v.nom, fm.nom";
-						$exec = mysql_query($query) or die(mysql_error());
-						while($data = mysql_fetch_assoc($exec))
-						{
-							echo "<option value='".stripslashes($data["id"])."'>".stripslashes($data["pays"])." - ".stripslashes($data["nom"])."</option>";
-						}
-							
-							}
-							?>
-							
-							<option value="">- - -</option>
-                        <?
-						$query = "SELECT fm.*, p.nom as pays, v.nom as ville FROM fiche_minis fm INNER JOIN minis_pays p ON fm.pays = p.id INNER JOIN minis_ville v ON fm.ville = v.id WHERE fm.afficher ='1' ORDER BY p.nom, v.nom, fm.nom";
-						$exec = mysql_query($query) or die(mysql_error());
-						while($data = mysql_fetch_assoc($exec))
-						{
-							echo "<option value='".stripslashes($data["id"])."'>".stripslashes($data["pays"])." - ".stripslashes($data["nom"])."</option>";
-						}
-						?>
-						</select>
-						</div>	
-					</div>	
-					
-					<div class="form-group">
-							<label  class="col-sm-3 control-label">Nombre d'élèves*  </label>
-							<div class="col-sm-3">								 
-							 
-							-16 ans <input name="nb_eleve" type="text" value=""   size="2" />
-							</div>
-							<div class="col-sm-3">								 
-								16 /18 ans<input name="nb_eleve2" type="text"  value=""  size="2" />
-								</div>
-							<div class="col-sm-3">								 	
-								+ 18 ans <input name="nb_eleve3" type="text"  value="" size="2" />
-						</div>	
-					</div>	
-					<div class="form-group">
-							<label  class="col-sm-3 control-label">Nombre d'encadrants* </label>
-							<div class="col-sm-9">								 
-							<input name="nb_adulte" mandatory type="text" value="" class="inputtext" size="5" />	
+						<label  class="col-sm-3 control-label">Nombre d'encadrants* </label>
+						<div  class="col-sm-9">								 
+							<input required name="framings" mandatory type="text" value="" class="inputtext" size="5" />	
 						</div>	
 					</div>
                     <div class="form-group">
-							<label  class="col-sm-3 control-label">Nombre de PC* </label>
-							<div class="col-sm-9">								 
-							<select name="nb_pc" class="select"><option value="">- - -</option>
-                      <option value="2PC">2PC</option><option value="3PC">3PC</option><option value="4PC">4PC</option><option value="5">5PC</option><option value="+5">+ de 5PC</option>
-                      </select> (Nombre de nuits sur place)	<br>
-					  (Pensions Complètes: 1 PC = repas du soir, nuit, petit déjeuner et panier repas).<br /><i>En fonction du point de départ et de la durée du trajet,
-					le nombre total de jours du voyage peut varier, sans incidence sur le nombre de PC, et donc sur le prix</i>
-					<hr>
-						</div>	
+						<label  class="col-sm-3 control-label">Nombre de PC* </label>
+					    <div class="col-sm-9">								 
+							<select required name="places" class="select">
+                                <option value="">- - -</option>
+                                <option value="2PC">2PC</option><option value="3PC">3PC</option><option value="4PC">4PC</option><option value="5">5PC</option><option value="+5">+ de 5PC</option>
+                            </select> (Nombre de nuits sur place)	
+                        <br>
+                            (Pensions ComplÃ¨tes: 1 PC = repas du soir, nuit, petit dÃ©jeuner et panier repas).
+                        <br />
+                        <i>En fonction du point de dÃ©part et de la durÃ©e du trajet,
+                            le nombre total de jours du voyage peut varier, sans incidence sur le nombre de PC, et donc sur le prix
+                        </i>
+					    <hr>
+					</div>	
 					</div>
                    <div class="form-group">
-							<label  class="col-sm-3"></label>
-							<div class="col-sm-9">						 
-							  <i>Si vos dates ne sont pas pas encore définies, merci d'inscrire le 1er jour du mois du voyage.</i>
+						<label  class="col-sm-3"></label>
+						<div class="col-sm-9">						 
+							  <i>Si vos dates ne sont pas pas encore dÃ©finies, merci d'inscrire le 1er jour du mois du voyage.</i>
 						</div>	
 					</div>
-                   <div class="form-group">
-							<label  class="col-sm-3 control-label">Date de départ de l'établissement*</label>
-							<div class="col-sm-4">	
-							<input class="datepickr" name="date_debut">
-
-
-        <script src="js/datepicker/datepickr.min.js"></script>
-        <script>
-            // Regular datepickr
-            datepickr('#datepickr');
-
-            // Custom date format
-			datepickr.prototype.l10n.months.shorthand = ['janv', 'févr', 'mars', 'avril', 'mai', 'juin', 'juil', 'août', 'sept', 'oct', 'nov', 'déc'];
-            datepickr.prototype.l10n.months.longhand = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-            datepickr.prototype.l10n.weekdays.shorthand = ['dim', 'lun', 'mar', 'mer', 'jeu', 'ven', 'sam'];
-            datepickr.prototype.l10n.weekdays.longhand = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
-            datepickr('.datepickr', { dateFormat: 'd-m-y'});         
-          
-        </script>
-							</div>
-					
-						
-						<div class="col-sm-5">incluant un départ de nuit à l'aller <INPUT TYPE="checkbox" name="depart_nuit" value="1">	
+                    <div class="form-group">
+						<label  class="col-sm-3 control-label">Date de dÃ©part de l'Ã©tablissement*</label>
+						<div class="col-sm-4">	
+							<input type="date" required class="datepickr" name="date_start">
+            
+						</div>
+						<div class="col-sm-5">incluant un dÃ©part de nuit Ã  l'aller <input type="checkbox" name="back_night_to_go" value="1">	
 						</div>
 					</div>
 					
                    <div class="form-group">
-							<label  class="col-sm-3 control-label">Date de retour à l'établissement*</label>
-							<div class="col-sm-4">	<input class="datepickr" name="date_fin">							 
-							<script src="js/datepicker/datepickr.min.js"></script>
-        <script>
-            // Regular datepickr
-            datepickr('#datepickr');
-
-            // Custom date format
-			datepickr.prototype.l10n.months.shorthand = ['janv', 'févr', 'mars', 'avril', 'mai', 'juin', 'juil', 'août', 'sept', 'oct', 'nov', 'déc'];
-            datepickr.prototype.l10n.months.longhand = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-            datepickr.prototype.l10n.weekdays.shorthand = ['dim', 'lun', 'mar', 'mer', 'jeu', 'ven', 'sam'];
-            datepickr.prototype.l10n.weekdays.longhand = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
-            datepickr('.datepickr', { dateFormat: 'd-m-y'});         
-          
-        </script>
-					
-						</div>	
-						<div class="col-sm-5"> incluant un départ de nuit au retour	 <INPUT TYPE="checkbox" name="retour_nuit" value="1">
-						</div>
+						<label  class="col-sm-3 control-label">Date de retour Ã  l'Ã©tablissement*</label>
+						<div class="col-sm-4">	<input type="date" required class="datepickr" name="date_end">							 
+					    </div>	
+                        <div class="col-sm-5"> incluant un dÃ©part de nuit au retour	 
+                            <input type="checkbox" name="back_night_forth" value="1">
+                        </div>
 					</div>
-                   
                    <div class="form-group">
 							<label  class="col-sm-3 control-label">Mode de voyage </label>
 							<div class="col-sm-9">								 
-							<select name="mode_voyage" class="select">
-                        <option value="1-Autocar">Autocar</option>
-                        <option value="5-Autorcar+trarversee">Autocar + traversée</option>
-                        <option value="2-Avion">Avion</option>
-                        <option value="4-TGV+autocar">TGV + autocar francais</option>
-                        <option value="3-Train">Train</option>
+							<select name="mode_travel" class="select">
+                            <option value="1-Autocar">Autocar</option>
+                            <option value="5-Autorcar+trarversee">Autocar + traversÃ©e</option>
+                            <option value="2-Avion">Avion</option>
+                            <option value="4-TGV+autocar">TGV + autocar francais</option>
+                            <option value="3-Train">Train</option>
                     </select>
 						</div>	
 					</div>
 					<div class="form-group">
-							<label  class="col-sm-3 control-label">Traversée maritime </label>
+							<label  class="col-sm-3 control-label">TraversÃ©e maritime </label>
 							<div class="col-sm-9">								 
-							<select name="trav" class="select">
+							<select name="crossing" class="select">
                         <option value="">- - -</option>
                         <option value="Bateau">Bateau</option>
                         <option value="Eurotunnel">Eurotunnel</option>
-                        <option value="Bateau à l'aller - Eurotunnel au retour">Bateau à l'aller - Eurotunnel au retour</option>
-                        <option value="Eurotunnel à l'aller - Bateau au retour">Eurotunnel à l'aller - Bateau au retour</option>
+                        <option value="Bateau Ã  l'aller - Eurotunnel au retour">Bateau Ã  l'aller - Eurotunnel au retour</option>
+                        <option value="Eurotunnel Ã  l'aller - Bateau au retour">Eurotunnel Ã  l'aller - Bateau au retour</option>
                     </select>
 						</div>	
 					</div>  
 					<div class="form-group">
 							<label  class="col-sm-3 control-label">Date du CA devant voter le voyage </label>
 							<div class="col-sm-9">								 
-							<input class="datepickr" name="date_ca">							 
-							<script src="js/datepicker/datepickr.min.js"></script>
-        <script>
-            // Regular datepickr
-            datepickr('#datepickr');
-
-            // Custom date format
-			datepickr.prototype.l10n.months.shorthand = ['janv', 'févr', 'mars', 'avril', 'mai', 'juin', 'juil', 'août', 'sept', 'oct', 'nov', 'déc'];
-            datepickr.prototype.l10n.months.longhand = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-            datepickr.prototype.l10n.weekdays.shorthand = ['dim', 'lun', 'mar', 'mer', 'jeu', 'ven', 'sam'];
-            datepickr.prototype.l10n.weekdays.longhand = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
-            datepickr('.datepickr', { dateFormat: 'd-m-y'});         
-          
-        </script>
+							<input  type="date"  class="datepickr" name="date_ca">							 
+                            
 						</div>	
 					</div>
 
 					<div class="form-group">
 							<label  class="col-sm-3 control-label">Joindre votre programme<br />(doc ou pdf) :</label>
 							<div class="col-sm-9">								 
-							<input name="fic" type="file" />
+							<input name="prog_file" type="file" />
 						</div>	
 					</div>
 					 <div class="form-group">
-							<label  class="col-sm-3 control-label">Assurance souhaitée </label>
+							<label  class="col-sm-3 control-label">Assurance souhaitÃ©e </label>
 							<div class="col-sm-9">								 
 							<select name="assurance" class="select">
                        
                         <option value="0">Pas d'assurance</option>
-						<option value="3-assistance medicale">Assurance Assistance Médicale/Rapatriement</option>
+						<option value="3-assistance medicale">Assurance Assistance MÃ©dicale/Rapatriement</option>
                         <option value="1-annulation">Assurance Annulation</option>						
 						<option value="4-multirisque">Le Pack Multirisque</option>
 						          
@@ -457,16 +409,15 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 							</div>	
 					</div>                    
 					<div class="form-group">
-							<label  class="col-sm-3 control-label">Assurance complémentaire </label>
-							<div class="col-sm-9 tooltip_hover"><a  data-toggle="tooltip" href="#" data-original-title="Cette option impose de prendre une assurance au préalable">Annulation Totale Groupe</a>						 
-							<INPUT TYPE="checkbox" name="ass_complement" value="1">
+							<label  class="col-sm-3 control-label">Assurance complÃ©mentaire </label>
+							<div class="col-sm-9 tooltip_hover"><a  data-toggle="tooltip" href="#" data-original-title="Cette option impose de prendre une assurance au prÃ©alable">Annulation Totale Groupe</a>						 
+							<input TYPE="checkbox" name="assurance_comp" value="1">
 							</div>	
 					</div>
                   
 					
-					<div align="right"><input style="font-size: 130%;" align="right" type="submit"  onClick="javascript:verifForm()" class="button" value="Etape 2 : vos coordonnées"></div>
+					<div align="right"><input  align="right" type="submit"  onClick="javascript:verifForm()" class="button" value="Passer Ã  l'etape 2 - CoordonnÃ©es"></div>
                    
-                <!--  <input type="hidden" name="total" value="<?=$total?>" />-->
                   </form>
                 </div>
                 <? } ?>
@@ -486,6 +437,128 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 					
             </section>
             <!-- End content info-->
+			<script>
+function changeListeVille() {
+         var paysEtVilles = {};         
+         var pays = document.getElementById("destination");
+         var ville = document.getElementById("ville");
+    
+         while(ville.options.length>1){
+            ville.remove(ville.length-1);
+         }
+         var i=1;
+        switch(pays.value){
+            case 'Allemagne': 
+                paysEtVilles ["Allemagne"] = ["Augsburg", "Berlin", "Cologne", "Lac de constance", "ForÃªt Noire", 
+                                               "Mayence", "Munick - Sud de la baviÃ¨re", "Nuremberg"];
+                for (i = 1; i <= paysEtVilles["Allemagne"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Allemagne"][i-1], i);
+                    ville.options.add(newVillle);
+                } 
+                break;   
+            case 'Australie': 
+                paysEtVilles ["Australie"] = ["Sydney - Melbourne - Adelaide"];
+                for (i = 1; i <= paysEtVilles["Australie"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Australie"][i-1], i);
+                    ville.options.add(newVillle);
+                }  
+                break;   
+            case 'Autriche': 
+                paysEtVilles ["Autriche"] = ["Vienne"];
+                for (i = 1; i <= paysEtVilles["Autriche"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Autriche"][i-1], i);
+                    ville.options.add(newVillle);
+                }                  
+                break;   
+            case 'Espagne': 
+            paysEtVilles ["Espagne"] = ["Andalousie", "Barcelone", "Circuit Barcelone/Madrid", "Grenade", "Madrid", 
+                                        "Salamanquee", "SÃ©govie", "Santander", "SÃ©ville", "St Jacques de Compostelle", 
+                                        "Delta de l'Ebre", "Valence", "Valence Fallas", "Valence IntÃ©gration Scolaire", "Zamora"];
+            for (i = 1; i <= paysEtVilles["Espagne"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Espagne"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'Angleterre': 
+                paysEtVilles["Angleterre"] = ["Bath", "Brighton", "Cambridge", "Cheltenham", "Chester", "IntÃ©gration scolaire Ã  Londres et sa rÃ©gion", 
+                                         "Londres", "Londres Ã  la carte", "Londres Christmas in London", "Circuit Londres/Plymouth", "Oxford", 
+                                         "Plymouth", "Portsmouth", "Ramsgate", "Stratford upon Avon", "circuit Angleterre/Ecosse - Circuit Londres/Edimbourg", 
+                                         "circuit Angleterre/Irlande - Circuit Londres/Dublin", "Circuit Angleterre/Pays de Galles  - Circuit Londres/Cardiff"];
+         
+                for (i = 1; i <= paysEtVilles["Angleterre"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Angleterre"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'France': 
+                paysEtVilles ["France"] = ["La Provence Romaine", "ChÃ¢teaux de la Loire", "Normandie", "Auvergne", "Le Parc du Futuroscope",
+                                            "Paris", "Paris  Sciences et  Histoire", "PyrÃ©nÃ©es", "Strasbourg", "Toulouse", "Verdun"];                
+                for (i = 1; i <= paysEtVilles["France"].length; i++) {
+                var newVillle = new Option(paysEtVilles["France"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'Ecosse': 
+                paysEtVilles ["Ecosse"] = ["Edimbourg", "circuit Angleterre/Ecosse - Circuit Londres/Edimbourg"];
+                for (i = 1; i <= paysEtVilles["Ecosse"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Ecosse"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'GrÃ¨ce': 
+                paysEtVilles ["GrÃ¨ce"] = ["AthÃ¨nes", "Circuit GrÃ¨ce Classique", "GrÃ¨ce classique et mÃ©tÃ©ores"];
+                for (i = 1; i <= paysEtVilles["GrÃ¨ce"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["GrÃ¨ce"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'Pays de Galles': 
+                paysEtVilles ["Pays de Galles"] = ["Cardiff", "Circuit Angleterre/Pays de Galles  - Circuit Londres/Cardiff"];
+                for (i = 1; i <= paysEtVilles["Pays de Galles"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Pays de Galles"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'Irlande': 
+                paysEtVilles ["Irlande"] = ["Connemara-Galway", "Cork", "Circuit Cork/Dublin", "Dublin",
+                         "Dublin - IntÃ©gration Scolaire", "Circuit Galway/Dublin", "circuit Angleterre/Irlande - Circuit Londres/Dublin"];
+                         for (i = 1; i <= paysEtVilles["Irlande"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Irlande"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'Italie': 
+                paysEtVilles ["Italie"] = ["Florence", "Rome", "Circuit Rome/Sorrente", "Sicile", "Venise"];
+                for (i = 1; i <= paysEtVilles["Italie"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Italie"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'Malte': 
+                paysEtVilles ["Malte"] = ["Malte"];
+                for (i = 1; i <= paysEtVilles["Malte"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["Malte"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;   
+            case 'USA': 
+                paysEtVilles ["USA"] = ["Californie du Sud en Familles hÃ´tesses", "RÃ©gion de Boston",
+                                 "New York", "Virginie", "Washington"];
+                for (i = 1; i <= paysEtVilles["USA"].length; i++) {
+                    var newVillle = new Option(paysEtVilles["USA"][i-1], i);
+                    ville.options.add(newVillle);
+                }
+                break;      
+                default:  
+                        paysEtVilles ["Default"] = ["---"];
+                        var newVillle = new Option(paysEtVilles["Default"][i-1], i);
+                        ville.options.add(newVillle); 
+                        ; 
+        }
+        
+         
+}
+</script>
 
  <? include("footer_scolaires.php"); ?>          
 			

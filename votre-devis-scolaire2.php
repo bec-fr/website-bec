@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<? include("connect.php"); ?><html lang="fr"> 
-   <head>  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />	  
+<!--<? include("connect.php"); ?>--> 
+<html lang="fr"> 
+   <head>  
+   <meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, text/html; charset=iso-8859-1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
    <title>BEC - Finaliser votre devis scolaire 2016-2017</title>  
    
-   <meta name="description" content="BEC Séjour linguistiques : Finaliser votre devis scolaire 2018-2019">   
-   <meta name="author" content="Bec Séjours Linguistiques">   
+   <meta name="description" content="BEC Sï¿½jour linguistiques : Finaliser votre devis scolaire 2018-2019">   
+   <meta name="author" content="Bec Sï¿½jours Linguistiques">   
    
    <!-- Mobile Metas -->       
    <meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1">
@@ -64,7 +67,7 @@ th, td {
    <div class="container">         
    <div class="row"> 						                
    <div class="col-md-10"><br>         
-   <title>Bec séjours linguistiques - Votre devis scolaire - finalisation</title>  
+   <title>Bec sï¿½jours linguistiques - Votre devis scolaire - finalisation</title>  
    
    </div> 						<div class="col-md-2"></div>						                    </div>         
    </div>                        </div>      
@@ -106,12 +109,12 @@ th, td {
 		}
 		a="0";
 		
-		if (document.mail.nom.value.length == 0) {alert('Vous n\'avez pas indiqué votre nom.'); a="1"; document.mail.nom.focus();}
-		else if (document.mail.prenom.value.length == 0) {alert('Vous n\'avez pas indiqué votre prénom.'); a="1"; document.mail.prenom.focus();}
-		else if (document.mail.tel.value.length == 0) {alert('Vous n\'avez pas indiqué votre teléphone'); a="1"; document.mail.tel.focus();}
-		else if (document.mail.mail.value.length == 0) {alert('Vous n\'avez pas indiqué votre adresse e-mail.'); a="1"; document.mail.mail.focus();}
+		if (document.mail.nom.value.length == 0) {alert('Vous n\'avez pas indiquï¿½ votre nom.'); a="1"; document.mail.nom.focus();}
+		else if (document.mail.prenom.value.length == 0) {alert('Vous n\'avez pas indiquï¿½ votre prï¿½nom.'); a="1"; document.mail.prenom.focus();}
+		else if (document.mail.tel.value.length == 0) {alert('Vous n\'avez pas indiquï¿½ votre telï¿½phone'); a="1"; document.mail.tel.focus();}
+		else if (document.mail.mail.value.length == 0) {alert('Vous n\'avez pas indiquï¿½ votre adresse e-mail.'); a="1"; document.mail.mail.focus();}
 		else if ((testm==false) && (document.mail.mail.value.length != 0)) {alert('Votre adresse e-mail est incorrecte.'); a="1"; document.mail.mail.focus();}
-		else if (document.mail.nom_etab.value.length == 0) {alert('Vous n\'avez pas indiqué votre établissement.'); a="1"; document.mail.nom_etab.focus();}
+		else if (document.mail.nom_etab.value.length == 0) {alert('Vous n\'avez pas indiquï¿½ votre ï¿½tablissement.'); a="1"; document.mail.nom_etab.focus();}
 		
 		if (a == 0) {
 			document.mail.submit();
@@ -128,7 +131,7 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 	mysql_query($query) or die(mysql_error());
 	$id = mysql_insert_id();
 	
-	envoi_mail($mail_site, "Devis depuis votre site Internet ".$url_site2, "Demande de devis depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le détail du devis mini-séjour.");
+	envoi_mail($mail_site, "Devis depuis votre site Internet ".$url_site2, "Demande de devis depuis votre site Internet ".$url_site2."<br><br>Cliquez <a href='".$url_site."/admin'>ici</a> pour vous rendre dans l'administration afin d'obtenir le dï¿½tail du devis mini-sï¿½jour.");
 	
 	if(isset($_POST["newsletter"]) && $_POST["newsletter"]=="1" && trim($_POST["mail"]) != ""){
 		mysql_query("INSERT INTO mailing (mail, groupe) VALUES ('".addslashes($_POST["mail"])."', '7')");
@@ -139,7 +142,7 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 
 
     <?
-	echo "<br><br><div align='center' class='texteBleu'><b>Merci pour votre demande.<br>Nous allons vous adresser une proposition dans les plus brefs délais.<br>Si des informations manquaient, un conseiller prendra contact avec vous afin d'affiner votre demande.</b></div><br><br>";	
+	echo "<br><br><div align='center' class='texteBleu'><b>Merci pour votre demande.<br>Nous allons vous adresser une proposition dans les plus brefs dï¿½lais.<br>Si des informations manquaient, un conseiller prendra contact avec vous afin d'affiner votre demande.</b></div><br><br>";	
 	echo "<meta http-equiv='refresh' content='0;url=http://www.becfrance.com/merci-devis-scolaire.php'>";
 	
 }
@@ -156,7 +159,7 @@ else{
 						
             <?php
 if ($_GET['m'] == 1) {
-    echo "Votre Offre de Fidélité 2018 -2019 ";
+    echo "Votre Offre de Fidï¿½litï¿½ 2018 -2019 ";
 } elseif ($_GET['m'] == 2) {
     echo "Votre Offre de Bienvenue 2018 -2019";
 } else {
@@ -169,14 +172,14 @@ if ($_GET['m'] == 1) {
               
               <?php
 if ($_GET['m'] == 1) {
-    echo "<h3>Votre Remise </h3><li> <b>Une remise immédiate de 310€</b> sur le montant global";
+    echo "<h3>Votre Remise </h3><li> <b>Une remise immï¿½diate de 310ï¿½</b> sur le montant global";
 } elseif ($_GET['m'] == 2) {
     echo "<h3>Votre Remise </h3> 
-              <li>Bénéficiez d'une <b>réduction immédiate de 150€</b> sur le budget global de votre séjour. ";
+              <li>Bï¿½nï¿½ficiez d'une <b>rï¿½duction immï¿½diate de 150ï¿½</b> sur le budget global de votre sï¿½jour. ";
 } else {
     echo "<h3>Vos Remises </h3>
-            <li> <b>Une remise de 310€</b> si vous avez déjà effectué un voyage avec BEC
-            <li> <b>Une remise de 150€</b> pour votre premier voyage avec BEC ";
+            <li> <b>Une remise de 310ï¿½</b> si vous avez dï¿½jï¿½ effectuï¿½ un voyage avec BEC
+            <li> <b>Une remise de 150ï¿½</b> pour votre premier voyage avec BEC ";
 }
 ?>
 
@@ -185,30 +188,30 @@ if ($_GET['m'] == 1) {
 
               
               <h3 style="padding-top :35px;">En plus</h3>
-              <li><b>8 % de réduction</b> pour tout séjour avant le 31 janvier 2019 
-<li><b>4 % de réduction</b> pour tout séjour entre le 1er et le 28 février 2019 
+              <li><b>8 % de rï¿½duction</b> pour tout sï¿½jour avant le 31 janvier 2019 
+<li><b>4 % de rï¿½duction</b> pour tout sï¿½jour entre le 1er et le 28 fï¿½vrier 2019 
 <br>
 <h3 style="padding-top :35px;">Pourquoi choisir BEC ?</h3>
 </div>
             <div class="row">
-          <div align="center" class="col-md-6 col-xs-6"><img alt="50 ans bec" width="90" class="img-responsive" src="img/50ans.png">Depuis 1967 à votre service</div>
-          <div align="center" class="col-md-6 col-xs-6"><img width="90" src="img/contrat-qualite.png"><br>Labelisé Contrat Qualité de l'Office</div>
+          <div align="center" class="col-md-6 col-xs-6"><img alt="50 ans bec" width="90" class="img-responsive" src="img/50ans.png">Depuis 1967 ï¿½ votre service</div>
+          <div align="center" class="col-md-6 col-xs-6"><img width="90" src="img/contrat-qualite.png"><br>Labelisï¿½ Contrat Qualitï¿½ de l'Office</div>
           <div align="center" class="col-md-6 col-xs-6"><img alt="assurance" width="90" src="img/assurance.png"><br>Assurance annulation totale scolaire</div>
-          <div align="center" class="col-md-6 col-xs-6"><img   width="90"  src="img/garantie-apst.png"><br>Garantie des Fonds Déposés </div>
+          <div align="center" class="col-md-6 col-xs-6"><img   width="90"  src="img/garantie-apst.png"><br>Garantie des Fonds Dï¿½posï¿½s </div>
           </div><br>
           
-          <br>De 2013 à 2018 : <br><br>
+          <br>De 2013 ï¿½ 2018 : <br><br>
           <li><font style="font-size: 18px"><b>80</b></font> destinations (<a target="_blank" href="http://www.becfrance.com/doc/brochures-scolaires-2017.pdf">cf catalogue</a>)
-           <li><font style="font-size: 18px"><b>+ 1200</b></font> voyages organisés
-           <li><font style="font-size: 18px"><b>+ 46.500</b></font> élèves et encadrants</b>  
+           <li><font style="font-size: 18px"><b>+ 1200</b></font> voyages organisï¿½s
+           <li><font style="font-size: 18px"><b>+ 46.500</b></font> ï¿½lï¿½ves et encadrants</b>  
 					
 					<br>
 					<h3 <h3 style="padding-top :35px;">Ils nous font confiance</h3>
-                            <blockquote><i>"Notre premier voyage avec BEC a été une magnifique réussite et je n'attends qu'une chose : repartir ! Merci encore et félicitations à votre équipe : Les élèves sont ravis. C'est un plaisir de travailler avec vous."</i>
-                                <small>Mme Lavillat – <cite title="Source Title">Collège St François</cite></small>
+                            <blockquote><i>"Notre premier voyage avec BEC a ï¿½tï¿½ une magnifique rï¿½ussite et je n'attends qu'une chose : repartir ! Merci encore et fï¿½licitations ï¿½ votre ï¿½quipe : Les ï¿½lï¿½ves sont ravis. C'est un plaisir de travailler avec vous."</i>
+                                <small>Mme Lavillat ï¿½ <cite title="Source Title">Collï¿½ge St Franï¿½ois</cite></small>
                             </blockquote>
-							<blockquote><i>"Très bon travail de l'equipe du BEC. Bonnes visites, les élèves ont adoré. C'était impeccable !"</i>
-                                <small>Mme Philippe – <cite title="Source Title">Collège La Peyroua</cite></small>
+							<blockquote><i>"Trï¿½s bon travail de l'equipe du BEC. Bonnes visites, les ï¿½lï¿½ves ont adorï¿½. C'ï¿½tait impeccable !"</i>
+                                <small>Mme Philippe ï¿½ <cite title="Source Title">Collï¿½ge La Peyroua</cite></small>
                             </blockquote>
 
 
@@ -216,63 +219,99 @@ if ($_GET['m'] == 1) {
 <div class="col-md-6">					
                 <table style="background-color: rgba(210, 231, 216, 0.5);"  width="100%" border="0" align="center">
 				
-                  <form  action="" method="post" name="mail">
-				  
-                    <input type="hidden" value="1" name="ok" />
-                    <tr>									
-					<td colspan="2">					
-					<div class="titles">      
-					<h1><i class="fa fa-edit"></i>&nbsp;Finalisation de votre devis</h1>     <br><br>
-					<span style="background-color: rgba(0,178,41,0.01);">Etape 2/2 : Vos coordonnées</span>     
-																   </div>															</td>
-                
-                    <tr>
-                      <td  align="right" ><b>Nom du professeur* :</b></td>
-                      <td ><input name="nom" type="text" id="nom" value="<? echo htmlentities ($_GET['nom'],ENT_QUOTES,'UTF-8'); ?>" class="inputtext" size="30" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right" ><b>Pr&eacute;nom* : </b></td>
-                      <td><input name="prenom" type="text" id="prenom" value="<? echo htmlentities ($_GET['prenom'],ENT_QUOTES,'UTF-8'); ?>" class="inputtext" size="30" /></td>
-                    </tr>					                    <tr>             
-					<td align="right" ><b>Tél mobile* :</b></td>                      <td><input name="tel" type="text" id="tel" value="" class="inputtext" size="30" /></td>  
-					</tr>              
-					<tr>                      <td align="right" class="text"><b>Mail* :</b></td>                      <td><input name="mail" type="text" id="mail" value="<? echo $_GET['email']; ?>" class="inputtext" size="30" /></td>                    </tr>
-                    <tr>
-                      <td align="right" ><b>Nom de l'établissement* :</b></td>
-                      <td><input name="nom_etab" type="text" id="nom_etab" value="<? echo htmlentities($_GET['ecole'],ENT_QUOTES,'UTF-8'); ?>"  class="inputtext" size="30" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right" class="text"><b>Adresse de l'établissement* :</b></td>
-                      <td><input name="adresse" type="text" id="adresse" value="" class="inputtext" size="30" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right" class="text"><b>Code postal* :</b></td>
-                      <td><input name="cp" type="text" id="cp" value="" class="inputtext" size="10" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right" class="text"><b>Ville* :</b></td>
-                      <td><input name="ville" type="text" id="ville" value="" class="inputtext" size="30" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right" class="text"><b>Tél établissement* :</b></td>
-                      <td><input name="tel_etab" type="text" id="tel_etab" value="" class="inputtext" size="30" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right" class="text"><b>Inscription newsletter :</b></td>
-                      <td><input name="newsletter" type="checkbox" value="1" checked="checked" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right" valign="top" class="text"><b>Comment avez-vous connu le BEC ?</b></td>
-                      <td><select name="connu" class="select"><option value="">- - -</option><option value="moteurs de recherche">moteurs de recherche</option><option value="l'Office">l'Office</option><option value="mon professeur">mon professeur</option><option value="un ami / ma famille">un ami / ma famille</option><option value="tract sur le salon Expolangues">tract sur le salon Expolangues</option><option value="tract devant ma fac / mon lycée">tract devant ma fac / mon lycée</option></select></td>
-                    </tr>
-                    <tr>
-                      <td align="right" valign="top" class="text"><b>Message :</b></td>
-                      <td><textarea name="message" cols="40" rows="8" id="message" class="textarea"></textarea></td>
-                    </tr>
-                    <tr><td>&nbsp;</td></tr>
-                    <tr>
-                      <td colspan="2" align="right" valign="bottom">					  					  <input style="font-size: 130%;" align="right" type="submit"  onClick="javascript:verifForm(); _gaq.push(['_trackPageview', '/devis-voyage-scolaire.php']); return false;" class="button" value="Finaliser le devis">					  					 </td>
-                    </tr>
+                  <form  action="localhost/website-bec/posted_devis_scolaire.php" method="post" name="mail">
+            
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label> Nom du professeur:  <font color="red">*</font> </label>
+                          <input name="last_name" class="form-control" id="last_name" type="text" required="" placeholder="Nom" required/>
+
+                      </div>
+                      <div class="form-group col-md-6">
+                      <label> PrÃ©om:  <font color="red">*</font> </label>
+                          <input type="text" class="form-control" name="first_name" id="first_name" placeholder="PrÃ©nom" required/>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label> Email:  <font color="red">*</font> </label>
+                          <input name="email1" id="email1" class="form-control" type="text" placeholder="Email" required=""/>
+                      </div>
+                      <div class="form-group col-md-6">
+                      <label> TÃ©l mobile:  <font color="red">*</font> </label>
+                          <input type="text" class="form-control" name="phone_mobile" id="phone_mobile" placeholder="TÃ©l" required />
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label> Nom Ã©tablissement :   <font color="red">*</font> </label>
+                          <input name="establishment" id="establishment" class="form-control" type="text" placeholder="Nom de l'Ã©tablissement" required/>
+                      </div>
+                      <div class="form-group col-md-6">
+                      <label> Adresse:  <font color="red">*</font> </label>
+                          <input name="address_establishment" id="address_establishment" class="form-control" type="text" placeholder="Adresse de Ã©tablissement" required/>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label> Code postal:  <font color="red">*</font> </label>
+                          <input name="code_postal_establishment" id="code_postal_establishment" class="form-control" type="text" placeholder="Code postal" required/>
+                      </div>
+                      <div class="form-group col-md-6">
+                      <label> Ville:  <font color="red">*</font> </label>
+                          <input name="town_establishment" id="town_establishment" class="form-control" type="text" placeholder="Ville" required/>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label> TÃ©l Ã©tablissement:  <font color="red">*</font> </label>
+                          <input name="phone_work_establishment" id="phone_work_establishment" class="form-control" type="text" placeholder="TÃ©lÃ©phone Ã©tablissement" required=""/>
+                      </div>
+                      <div class="form-group col-md-6">
+                          <div class="form-check">
+                                  <label class="form-check-label" for="gridCheck">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck" name="bool_newsletter" value="0">
+                                  Inscription newsletter:
+                            </label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <select id="inputState" name="servey" class="form-control">
+                          <option selected>Comment avez-vous connu le BEC?</option>
+                          <option value="Moteur de recherche">Moteur de recherche</option>
+                          <option value="Office">L'Office</option>
+                          <option value="Mon professeur">Mon professeur</option>
+                          <option value="Un ami / ma famille">Un ami / ma famille</option>
+                          <option value="Tract sur le salon Expolangues">Tract sur le salon Expolangues</option>
+                          <option value="Tract devant ma fac / mon lycÃ©e">Tract devant ma fac / mon lycÃ©e</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" placeholder="Message" name="message" id="message"/> </textarea>
+                  </div>
+            
+                  <input name="destination_country" type="hidden" value="<?php echo $destination_country ?>" />
+                  <input name="destination_city" type="hidden" value="<?php echo $destination_city ?>" /> 
+                  <input name="less16" id="u16" type="hidden" value="<?php echo $less16 ?>" /> 
+                  <input name="equal16_18" type="hidden" value="<?php echo $equal16_18 ?>" /> 
+                  <input name="more18" type="hidden" value="<?php echo $more18 ?>" /> 
+                  <input name="framings" type="hidden" value="<?php echo $framings ?>" /> 
+                  <input name="places" type="hidden" value="<?php echo $places ?>" /> 
+                  <input name="date_start" type="hidden" value="<?php echo $date_start ?>" /> 
+                  <input name="date_end" type="hidden" value="<?php echo $date_end ?>" />
+                  <input name="mode_travel" type="hidden" value="<?php echo $mode_travel ?>" />
+                  <input name="crossing" type="hidden" value="<?php echo $crossing ?>" />
+                  <input name="date_ca" type="hidden" value="<?php echo $date_ca ?>" />
+                  <input name="file_prog" type="hidden" value="<?php echo $prog_file ?>" />
+                  <input name="assurance_comp" type="hidden" value="<?php echo $assurance_comp ?>" />
+                  <input name="assurance" type="hidden" value="<?php echo $assurance ?>" />
+                  <input name="back_night_forth" type="hidden" value="<?php echo $back_night_forth ?>" />
+                  <input name="back_night_to_go" type="hidden" value="<?php echo $back_night_to_go ?>" />
+                  <input name="lead_source" type="hidden" value="DemandeDevis" />
+                  <button class="btn btn-primary" type="Submit" value="Submit" onclick="submit_form();">Finaliser le dÃ©vis</button>
+
                   </form>
                 </table>
 				</div>
@@ -285,7 +324,7 @@ if ($_GET['m'] == 1) {
 						
 						<?php
 if ($_GET['m'] == 1) {
-    echo "Votre offre de fidelité 2016 -2017 ";
+    echo "Votre offre de fidelitï¿½ 2016 -2017 ";
 } elseif ($_GET['m'] == 2) {
     echo "Votre offre de bienvenue 2016 -2017";
 } 
@@ -295,11 +334,11 @@ if ($_GET['m'] == 1) {
 							
 							<?php
 if ($_GET['m'] == 1) {
-    echo "<h3>Vos remises </h3><li> <b>une première remise de 310€</b> si vous avez déjà effectué un séjour au cours des 3 dernières années
-<li> <b>une seconde remise de 150€</b> si votre établissement effectue un second voyage au cours de l'année ";
+    echo "<h3>Vos remises </h3><li> <b>une premiï¿½re remise de 310ï¿½</b> si vous avez dï¿½jï¿½ effectuï¿½ un sï¿½jour au cours des 3 derniï¿½res annï¿½es
+<li> <b>une seconde remise de 150ï¿½</b> si votre ï¿½tablissement effectue un second voyage au cours de l'annï¿½e ";
 } elseif ($_GET['m'] == 2) {
     echo "<h3>Vos remises </h3> 
-							<li>Benéficiez d'une <b>offre de réduction de 150€</b> sur le budget global de votre séjour. ";
+							<li>Benï¿½ficiez d'une <b>offre de rï¿½duction de 150ï¿½</b> sur le budget global de votre sï¿½jour. ";
 } 
 ?>
 
@@ -307,34 +346,34 @@ if ($_GET['m'] == 1) {
 
 							
 							<h3>En plus</h3>
-							<li><b>8 % de réduction</b> pour tout séjour avant le 31 janvier 2017 
-<li><b>4 % de réduction</b> pour tout séjour entre le 1er et le 28 février 2017 
+							<li><b>8 % de rï¿½duction</b> pour tout sï¿½jour avant le 31 janvier 2017 
+<li><b>4 % de rï¿½duction</b> pour tout sï¿½jour entre le 1er et le 28 fï¿½vrier 2017 
 
 <h3 style="padding-top :35px;">En plus</h3>
-							<li><b>8 % de réduction</b> pour tout séjour avant le 31 janvier 2017 
-<li><b>4 % de réduction</b> pour tout séjour entre le 1er et le 28 février 2017 
+							<li><b>8 % de rï¿½duction</b> pour tout sï¿½jour avant le 31 janvier 2017 
+<li><b>4 % de rï¿½duction</b> pour tout sï¿½jour entre le 1er et le 28 fï¿½vrier 2017 
 <br>
 <h3 style="padding-top :35px;">Pourquoi choisir BEC ?</h3>
 </div>
 						<div class="row">
-					<div align="center" class="col-md-6 col-xs-6"><img alt="50 ans bec" width="90" class="img-responsive" src="img/50ans.png">Depuis 1967 à votre service</div>
-					<div align="center" class="col-md-6 col-xs-6"><img width="90" src="img/contrat-qualite.png"><br>Labelisé Contrat Qualité de l'Office</div>
+					<div align="center" class="col-md-6 col-xs-6"><img alt="50 ans bec" width="90" class="img-responsive" src="img/50ans.png">Depuis 1967 ï¿½ votre service</div>
+					<div align="center" class="col-md-6 col-xs-6"><img width="90" src="img/contrat-qualite.png"><br>Labelisï¿½ Contrat Qualitï¿½ de l'Office</div>
 					<div align="center" class="col-md-6 col-xs-6"><img alt="assurance" width="90" src="img/assurance.png"><br>Assurance annulation totale scolaire</div>
-					<div align="center" class="col-md-6 col-xs-6"><img   width="90"  src="img/garantie-apst.png"><br>Garantie des Fonds Déposés </div>
+					<div align="center" class="col-md-6 col-xs-6"><img   width="90"  src="img/garantie-apst.png"><br>Garantie des Fonds Dï¿½posï¿½s </div>
 					</div><br>
 					
 					En 2015-2016 : <br><br>
 					<li><font style="font-size: 18px"><b>80</b></font> destinations (<a target="_blank" href="http://www.becfrance.com/doc/brochures-scolaires-2017.pdf">cf catalogue</a>)
-					 <li><font style="font-size: 18px"><b>+ 270</b></font> voyages organisés
-					 <li><font style="font-size: 18px"><b>+ 13.500</b></font> élèves et encadrants</b>  
+					 <li><font style="font-size: 18px"><b>+ 270</b></font> voyages organisï¿½s
+					 <li><font style="font-size: 18px"><b>+ 13.500</b></font> ï¿½lï¿½ves et encadrants</b>  
 					
 					<br>
 					<h3 <h3 style="padding-top :35px;">Ils nous font confiance</h3>
-                            <blockquote><i>"Notre premier voyage avec BEC a été une magnifique réussite et je n'attends qu'une chose : repartir ! Merci encore et félicitations à votre équipe : Les élèves sont ravis. C'est un plaisir de travailler avec vous."</i>
-                                <small>Mme Lavillat – <cite title="Source Title">Collège St François</cite></small>
+                            <blockquote><i>"Notre premier voyage avec BEC a ï¿½tï¿½ une magnifique rï¿½ussite et je n'attends qu'une chose : repartir ! Merci encore et fï¿½licitations ï¿½ votre ï¿½quipe : Les ï¿½lï¿½ves sont ravis. C'est un plaisir de travailler avec vous."</i>
+                                <small>Mme Lavillat ï¿½ <cite title="Source Title">Collï¿½ge St Franï¿½ois</cite></small>
                             </blockquote>
-							<blockquote><i>"Très bon travail de l'equipe du BEC. Bonnes visites, les élèves ont adoré. C'était impeccable !"</i>
-                                <small>Mme Philippe – <cite title="Source Title">Collège La Peyroua</cite></small>
+							<blockquote><i>"Trï¿½s bon travail de l'equipe du BEC. Bonnes visites, les ï¿½lï¿½ves ont adorï¿½. C'ï¿½tait impeccable !"</i>
+                                <small>Mme Philippe ï¿½ <cite title="Source Title">Collï¿½ge La Peyroua</cite></small>
                             </blockquote>
 
 
@@ -346,5 +385,33 @@ if ($_GET['m'] == 1) {
 							  
 							   
 							   </div>                     <!-- contenu bas pages sur toute largeur-->	
-							   <div class="container"> 					          					                </div>            </section>     
+							   <div class="container"> 					          					                </div> 
+                            </section>     
+                            <script type="text/javascript">
+        function submit_form() {
+            if (typeof(validateCaptchaAndSubmit) != 'undefined') {
+                validateCaptchaAndSubmit();
+            } else {
+                check_webtolead_fields();
+                //document.WebToLeadForm.submit();
+            }
+        }
+
+        function check_webtolead_fields() {
+            if (document.getElementById('bool_id') != null) {
+                var reqs = document.getElementById('bool_id').value;
+                bools = reqs.substring(0, reqs.lastIndexOf(';'));
+                var bool_fields = new Array();
+                var bool_fields = bools.split(';');
+                nbr_fields = bool_fields.length;
+                for (var i = 0; i < nbr_fields; i++) {
+                    if (document.getElementById(bool_fields[i]).value == 'on') {
+                        document.getElementById(bool_fields[i]).value = 1;
+                    } else {
+                        document.getElementById(bool_fields[i]).value = 0;
+                    }
+                }
+            }
+        }
+    </script>
 							   <!-- End content info--> <? include("footer_scolaires.php"); ?>          			
