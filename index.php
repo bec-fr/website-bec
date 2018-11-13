@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<!--<? include("connect.php"); ?>-->
+<!-- <? include("connect.Pphp"); ?> -->
 <html lang="fr">
 <head>   
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />	
         <title>Bec séjours linguistiques pour scolaires, juniors, étudiant et adultes </title>
 		<meta name="description" content="Depuis 1967, BEC Séjours linguistiques propose des séjours pour scolaires, juniors, étudiants & adultes en Angleterre, USA, Irlande, Malte, Canada">
         <meta name="author" content="BEC sejours linguistiques">  
-        
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1">
         <!-- Your styles -->
@@ -141,11 +140,12 @@ woopra.track();
                                 <div class="circle_right"></div>
                             </div>
 							</div><br>
+
 							<div class="col-md-4 col-sm-12 col-lg-4 tooltip_hover">
 						
 						<h2>Les avantages du BEC</h2> <br>
 						<ul>
-						<li> Fort de plus de 49 ans d'eexpérience, le BEC est immatriculé auprès d'aATOUT France (IM 075 11 0001) et bénéficie d'une Garantie Financiére <strong><u>illimit�e</u></strong>, <strong>aupr�s de l�APST</strong>, des fonds que vous nous d�posez.                            
+						<li> Fort de plus de 49 ans d'expérience, le BEC est immatriculé auprès d'aATOUT France (IM 075 11 0001) et bénéficie d'une Garantie Financiére <strong><u>illimit�e</u></strong>, <strong>aupr�s de l�APST</strong>, des fonds que vous nous d�posez.                            
                         <li>Pour tous nos séjours, Le BEC <a href="qualite.php">s'engage
                                   à respecter les termes du Contrat Qualité</a> de l&rsquo;Office National de Garantie des Séjours et Stages Linguistiques, elaboré en collaboration avec des f�d�rations de parents d'�l�ves et des associations de consommateurs agr�es.
 						<li>Pour les étudiants, nos tarifs sont identiques à ceux proposés directement par les écoles partenaires, <b><a data-toggle="tooltip" data-original-title="D�couvrir les avantages du BEC pour les s�jours adultes" href="informations_generales_etudiants.php">notre service et l'assistance en plus.</b></a>
