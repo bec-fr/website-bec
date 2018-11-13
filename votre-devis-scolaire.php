@@ -193,9 +193,9 @@ if ($_GET['m'] == 1) {
 
 					</div>
                      <div class="col-md-6">
-                            <!-- Contenu-->               
+                        <!-- Contenu-->               
                                   
-<?
+<!--?
 if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 	
 	$query = "INSERT INTO devis_minis (destination, nb_adulte, nb_eleve, nb_eleve2,nb_eleve3,nb_pc, age, date_debut, date_fin,depart_nuit,retour_nuit, mode_voyage, mode_voyage2, trav,assurance,ass_complement,classe_etab, date_ca, datetime) VALUES ('".addslashes($_POST["destination"])."', '".addslashes($_POST["nb_adulte"])."', '".addslashes($_POST["nb_eleve"])."', '".addslashes($_POST["nb_eleve2"])."','".addslashes($_POST["nb_eleve3"])."', '".addslashes($_POST["nb_pc"])."', '".addslashes($_POST["age"])."', '".addslashes(date('d-m-y' , strtotime($_POST["date_debut"])))."', '".addslashes(date('d-m-y' , strtotime($_POST["date_fin"])))."','".addslashes($_POST["depart_nuit"])."', '".addslashes($_POST["retour_nuit"])."', '".addslashes($_POST["mode_voyage"])."', '".addslashes($_POST["mode_voyage2"])."', '".addslashes($_POST["trav"])."',  '".addslashes($_POST["assurance"])."','".addslashes($_POST["ass_complement"])."','".addslashes($_POST["classe_etab"])."', '".addslashes($_POST["date_ca"])."', '".date("Y-m-d H:i:s")."')";
@@ -256,7 +256,7 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 	echo "<script>document.location.href='votre-devis-scolaire2.php?ecole=".$_GET['ecole']."&m=".$_GET['m']."&email=".$_GET['email']."&nom=".$_GET['nom']."&prenom=".$_GET['prenom']."&id=".$id."';</script>";
 }else{
 
-?>
+?-->
 
                                                   
              

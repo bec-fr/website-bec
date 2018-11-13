@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--<? include("connect.php"); ?>--> 
+<!--? include("connect.php"); ?--> 
 <html lang="fr"> 
    <head>  
    <meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, text/html; charset=iso-8859-1">
@@ -67,7 +67,7 @@ th, td {
    <div class="container">         
    <div class="row"> 						                
    <div class="col-md-10"><br>         
-   <title>Bec s�jours linguistiques - Votre devis scolaire - finalisation</title>  
+   <title>Bec séjours linguistiques - Votre devis scolaire - finalisation</title>  
    
    </div> 						<div class="col-md-2"></div>						                    </div>         
    </div>                        </div>      
@@ -94,7 +94,8 @@ th, td {
    <!-- Properties -->                         
 
 
-   <!-- Contenu-->                                               
+   <!-- Contenu-->  
+   <!--                                             
 <script>
 	function verifForm(){
 		testm = false ;
@@ -121,12 +122,13 @@ th, td {
 		}
 	}
 </script>
+-->
 
 
 					
-                                  
+                               
 <?
-if(isset($_POST["ok"]) && $_POST["ok"] == 1){
+/*if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 	$query = "UPDATE devis_minis SET nom = '".addslashes($_POST["nom"])."', prenom = '".addslashes($_POST["prenom"])."', adresse = '".addslashes($_POST["adresse"])."', cp = '".addslashes($_POST["cp"])."', ville = '".addslashes($_POST["ville"])."', tel_etab = '".addslashes($_POST["tel_etab"])."', tel = '".addslashes($_POST["tel"])."', mail = '".addslashes($_POST["mail"])."', nom_etab = '".addslashes($_POST["nom_etab"])."', message = '".addslashes($_POST["message"])."', connu = '".addslashes($_POST["connu"])."' WHERE id = '".addslashes($_GET["id"])."'";
 	mysql_query($query) or die(mysql_error());
 	$id = mysql_insert_id();
@@ -136,7 +138,7 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 	if(isset($_POST["newsletter"]) && $_POST["newsletter"]=="1" && trim($_POST["mail"]) != ""){
 		mysql_query("INSERT INTO mailing (mail, groupe) VALUES ('".addslashes($_POST["mail"])."', '7')");
 	}
-	
+	*/
 	?>
     
 
@@ -145,10 +147,10 @@ if(isset($_POST["ok"]) && $_POST["ok"] == 1){
 	echo "<br><br><div align='center' class='texteBleu'><b>Merci pour votre demande.<br>Nous allons vous adresser une proposition dans les plus brefs d�lais.<br>Si des informations manquaient, un conseiller prendra contact avec vous afin d'affiner votre demande.</b></div><br><br>";	
 	echo "<meta http-equiv='refresh' content='0;url=http://www.becfrance.com/merci-devis-scolaire.php'>";
 	
-}
+//}
 
 
-else{
+//else{
 
 ?> <div class="col-md-6 hidden-sm hidden-xs">  
 
@@ -379,7 +381,7 @@ if ($_GET['m'] == 1) {
 
 
 					</div>
-                <? } ?>
+                <? /*} */?>
                                   
                                </div>                                       <!-- fin contenu -->						<!-- Aside -->			
 							  
