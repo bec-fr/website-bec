@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<? include("connect.php"); ?>
+<!--<? include("connect.php"); ?>-->
 <html lang="fr">
 <head>   
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />	
-        <title>Bec séjours linguistiques pour scolaires, juniors, étudiant et adultes </title>
-		<meta name="description" content="Depuis 1967, BEC Séjours linguistiques propose des séjours pour scolaires, juniors, étudiants & adultes en Angleterre, USA, Irlande, Malte, Canada">
+        <title>Bec sÃ©jours linguistiques pour scolaires, juniors, Ã©tudiant et adultes </title>
+		<meta name="description" content="Depuis 1967, BEC SÃ©jours linguistiques propose des sÃ©jours pour scolaires, juniors, Ã©tudiants & adultes en Angleterre, USA, Irlande, Malte, Canada">
         <meta name="author" content="BEC sejours linguistiques">  
         
         <!-- Mobile Metas -->
@@ -55,10 +55,10 @@ woopra.track();
 <!-- End of Woopra Code -->
 <script type="text/javascript">
 		    var callback = function(formatted_number, mobile_number) {
-		      // formatted_number: numéro à afficher, au même format
-		      //        que le numéro transmis à _googWcmGet().
+		      // formatted_number: numï¿½ro ï¿½ afficher, au mï¿½me format
+		      //        que le numï¿½ro transmis ï¿½ _googWcmGet().
 		      //        (ici, '1-800-123-4567')
-		      // mobile_number: numéro au format de lien cliquable
+		      // mobile_number: numï¿½ro au format de lien cliquable
 		      //        avec tel:-URI (ici, '+18001234567')
 		      var e = document.getElementById("number");
 		      e.innerHTML = "";
@@ -79,30 +79,30 @@ woopra.track();
             <!-- End content info -->
             <section class="content_info">	
                 <div class="container">	
-<h1>BEC Séjours linguistiques - La terre est notre salle de classe </h1>  
+<h1>BEC SÃ©jours linguistiques - La terre est notre salle de classe </h1>  
                       <section class="row padding_top">	
 						<div class="col-md-4 col-sm-4">	
 						<a class="homelink" href="index_junior.php">
 							   <div class="rollover pinkroll">
 							   
-								  <img src="img/pays/juniors.jpg" alt="nos séjours linguistiques pour adolescents" class="img-responsive">
+								  <img src="img/pays/juniors.jpg" alt="nos sï¿½jours linguistiques pour adolescents" class="img-responsive">
 									
 								  <div>
 									 <div >
-									   <p class="rollovertitle" >Partez à Londres, Dublin, New-York, Sydney...</p>							   
+									   <p class="rollovertitle" >Partez Ã  Londres, Dublin, New-York, Sydney...</p>							   
 									
 									 </div>
-									 <p class="rolloverclient" >Nos Séjours juniors pour les 12-17 ans</p>									
+									 <p class="rolloverclient" >Nos SÃ©jours juniors pour les 12-17 ans</p>									
 									 <div class="divrulehome"></div>
 								  </div>
 							   </div>
 								</a>
-						<h2>Séjours linguistiques pour adolescents 12-17 ans</h2> Apprendre les langues, découvrir le monde, échanger avec d'autres Jeunes Européens sur plus de 40 destinations dans 5 pays
+						<h2>SÃ©jours linguistiques pour adolescents 12-17 ans</h2> Apprendre les langues, dÃ©couvrir le monde, Ã©changer avec d'autres Jeunes EuropÃ©ens sur plus de 40 destinations dans 5 pays
 						</div>
 						<div class="col-md-4 col-sm-4">
 						<a class="homelink" href="sejours-linguistiques-pour-etudiants-adultes.html">
 							   <div class="rollover purpleroll">
-								  <img alt ="nos séjours linguistiques pour étudiants et adultes" src="img/pays/adultes.jpg" class="img-responsive">
+								  <img alt ="nos sÃ©jours linguistiques pour Ã©tudiants et adultes" src="img/pays/adultes.jpg" class="img-responsive">
 								  <div>
 									 <div>
 										<p class="rollovertitle" >Etudiez ou trouvez un stage dans 9 pays</p>
@@ -112,12 +112,12 @@ woopra.track();
 								  </div>
 							   </div>
 								</a>
-						  <h2>Séjours linguistiques pour étudiants et adultes 18+</h2> Nos écoles de langues partenaires vous accueillent dans 9 pays et vous proposent des cours de langue, un hébergement de qualité, une préparation aux examens ainsi que des Jobs & stages non rémunérés.
+						  <h2>SÃ©jours linguistiques pour Ã©tudiants et adultes 18+</h2> Nos Ã©coles de langues partenaires vous accueillent dans 9 pays et vous proposent des cours de langue, un hÃ©bergement de qualitÃ©, une prÃ©paration aux examens ainsi que des Jobs & stages non rï¿½munï¿½rï¿½s.
 						</div>
 						<div class="col-md-4 col-sm-4">
 						<a class="homelink" href="index_minis.php">
 							   <div class="rollover redroll">
-								   <img alt="nos séjours pour les scolaires" src="img/pays/scolaires.jpg" class="img-responsive">
+								   <img alt="nos sÃ©jours pour les scolaires" src="img/pays/scolaires.jpg" class="img-responsive">
 								  <div>
 									 <div >
 										<p class="rollovertitle" >Partez avec votre classe dans 10 pays </p>
@@ -129,7 +129,7 @@ woopra.track();
 							   
 							   </div>
 							   </a>
-						 <h2>Voyages scolaires éducatifs / circuits linguistiques</h2>Préparez votre voyage scolaire pour votre classe en toute sérenité en bénéficiant de tous nos avantages et de notre expérience.
+						 <h2>Voyages scolaires ï¿½ducatifs / circuits linguistiques</h2>Prï¿½parez votre voyage scolaire pour votre classe en toute sï¿½renitï¿½ en bï¿½nï¿½ficiant de tous nos avantages et de notre expï¿½rience.
 						</div>
 												
 						 
@@ -145,17 +145,17 @@ woopra.track();
 						
 						<h2>Les avantages du BEC</h2> <br>
 						<ul>
-						<li> Fort de plus de 49 ans d’expérience, le BEC est immatriculé auprès d’ATOUT France (IM 075 11 0001) et bénéficie d’une Garantie Financière <strong><u>illimitée</u></strong>, <strong>auprès de l’APST</strong>, des fonds que vous nous déposez.                            
-                        <li>Pour tous nos séjours, Le BEC <a href="qualite.php">s'engage
-                                  à respecter les termes du Contrat Qualité</a> de l&rsquo;Office National de Garantie des S&eacute;jours et Stages Linguistiques, elaboré en collaboration avec des fédérations de parents d'élèves et des associations de consommateurs agrées.
-						<li>Pour les étudiants, nos tarifs sont identiques à ceux proposés directement par les écoles partenaires, <b><a data-toggle="tooltip" data-original-title="Découvrir les avantages du BEC pour les séjours adultes" href="informations_generales_etudiants.php">notre service et l'assistance en plus.</b></a>
-						<li>Des séjours pour adolescents tout compris, avec une <a data-toggle="tooltip" data-original-title="Découvrir les avantages du BEC pour les séjours adolescents " href="avantage_junior.php"><b>sélection rigoureuse des familles d'accueil</b></a>, des cours de qualité avec un large panel d'activités.
-						<li> Une couverture en Responsabilité Civile pour tous les professeurs et élèves <b><a data-toggle="tooltip" data-original-title="Découvrir les avantages du BEC pour les voyages scolaires" href="http://www.becfrance.com/avantage_minis.php">pour les voyages scolaires.</a></b>		
+						<li> Fort de plus de 49 ans d'eexpÃ©rience, le BEC est immatriculÃ© auprÃ¨s d'aATOUT France (IM 075 11 0001) et bÃ©nÃ©ficie d'une Garantie FinanciÃ©re <strong><u>illimitï¿½e</u></strong>, <strong>auprï¿½s de lï¿½APST</strong>, des fonds que vous nous dï¿½posez.                            
+                        <li>Pour tous nos sÃ©jours, Le BEC <a href="qualite.php">s'engage
+                                  Ã  respecter les termes du Contrat QualitÃ©</a> de l&rsquo;Office National de Garantie des SÃ©jours et Stages Linguistiques, elaborÃ© en collaboration avec des fï¿½dï¿½rations de parents d'ï¿½lï¿½ves et des associations de consommateurs agrï¿½es.
+						<li>Pour les Ã©tudiants, nos tarifs sont identiques Ã  ceux proposÃ©s directement par les Ã©coles partenaires, <b><a data-toggle="tooltip" data-original-title="Dï¿½couvrir les avantages du BEC pour les sï¿½jours adultes" href="informations_generales_etudiants.php">notre service et l'assistance en plus.</b></a>
+						<li>Des sÃ©jours pour adolescents tout compris, avec une <a data-toggle="tooltip" data-original-title="DÃ©couvrir les avantages du BEC pour les sÃ©jours adolescents " href="avantage_junior.php"><b>sï¿½lection rigoureuse des familles d'accueil</b></a>, des cours de qualitï¿½ avec un large panel d'activitï¿½s.
+						<li> Une couverture en ResponsabilitÃ© Civile pour tous les professeurs et Ã©lÃ¨ves <b><a data-toggle="tooltip" data-original-title="DÃ©couvrir les avantages du BEC pour les voyages scolaires" href="http://www.becfrance.com/avantage_minis.php">pour les voyages scolaires.</a></b>		
 
 							
 						  </div>
 							<div class="col-md-8 col-sm-12">
-                                   <h2>Nos promotions et offres spéciales</h2>
+                                   <h2>Nos promotions et offres spï¿½ciales</h2>
                                       
 							                <?
 //les slides
@@ -177,9 +177,9 @@ while($data = mysql_fetch_assoc($execB)){
 									<? 
 									$couleur = ($tab_slide[$i]["site"]);
 									if ($couleur == "1"){
-									echo "<font size='+1' color='#efcbe0'><b>Séjours Etudiants & Adultes</b></font>";
+									echo "<font size='+1' color='#efcbe0'><b>Sï¿½jours Etudiants & Adultes</b></font>";
 								} elseif ($couleur == "2") {
-									echo "<font size='+1' color='#008bc7'><b>Séjours juniors 12-17 ans</b></font>";
+									echo "<font size='+1' color='#008bc7'><b>Sï¿½jours juniors 12-17 ans</b></font>";
 									} else {
 									echo "<font size='+1' color='#bd1928'><b>Voyages Scolaires</b></font>";
 									}
@@ -223,7 +223,7 @@ while($data = mysql_fetch_assoc($execB)){
 						</div>
 
 					<div class="col-md-6 col-lg-6">
-				<div class="fb-page" data-href="https://www.facebook.com/becfrance/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/becfrance/"><a href="https://www.facebook.com/becfrance/">BEC séjours linguistiques</a></blockquote></div></div>
+				<div class="fb-page" data-href="https://www.facebook.com/becfrance/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/becfrance/"><a href="https://www.facebook.com/becfrance/">BEC sï¿½jours linguistiques</a></blockquote></div></div>
 					
 					</div>
                    
