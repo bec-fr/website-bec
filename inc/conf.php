@@ -1,9 +1,9 @@
 <?
-$bdd_serveur = "";
-$bdd_user = "";//root
-$bdd_pass = "";//
+$bdd_serveur = "localhost";
+$bdd_user = "root";//root
+$bdd_pass = "vieux5223";//
 $bdd_base = "becfranc";
-
+/*
 //$mail_site = "mael@amenothes.fr";
 $mail_site = "xxxxxx@becfrance.com";
 
@@ -25,7 +25,7 @@ if($_SERVER['HTTP_HOST']=="192.168.1.201"){
 	$url_site3 = "becfrance.com";
 }
 
-
+*/
 $nom_site = "Bec France";
 $adresse_site = "99 rue La Fayette 75010 Paris";
 $adresse_site1 = "99 rue La Fayette";
@@ -38,7 +38,7 @@ $img_mail_haut = "http://www.becfrance.com/images/mail_haut.jpg";
 //$img_mail_haut = "http://192.168.1.201/B/BEC_France/www/images/mail_haut.jpg";
 
 
-$tab_mois = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre");
+$tab_mois = array("janvier", "fï¿½vrier", "mars", "avril", "mai", "juin", "juillet", "aoï¿½t", "septembre", "octobre", "novembre", "dï¿½cembre");
 $tab_jour = array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi");
 
 ?>
