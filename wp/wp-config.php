@@ -19,13 +19,13 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'becfrance_wp2');
+define('DB_NAME', 'becfranc');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'becfrance_wp2');
+define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'Mt7MtjamYLV7zKfw');
+define('DB_PASSWORD', 'vieux5223');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
