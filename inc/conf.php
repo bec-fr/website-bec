@@ -3,7 +3,7 @@ $bdd_serveur = "localhost";
 $bdd_user = "root";//root
 $bdd_pass = "vieux5223";//
 $bdd_base = "becfranc";
-/*
+
 //$mail_site = "mael@amenothes.fr";
 $mail_site = "xxxxxx@becfrance.com";
 
@@ -20,12 +20,12 @@ if($_SERVER['HTTP_HOST']=="192.168.1.201"){
 	$url_site2 = "http://site475.amenothes.nfrance.com:8080";
 	$url_site3 = "http://site475.amenothes.nfrance.com:8080";
 }else{
-	$url_site = "http://www.becfrance.com";
-	$url_site2 = "www.becfrance.com";
-	$url_site3 = "becfrance.com";
+	$url_site = "http://localhost/website-bec";
+	$url_site2 = "http://localhost/website-bec";
+	$url_site3 = "http://localhost/website-bec";
 }
 
-*/
+
 $nom_site = "Bec France";
 $adresse_site = "99 rue La Fayette 75010 Paris";
 $adresse_site1 = "99 rue La Fayette";

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- <? include("connect.Pphp"); ?> -->
+<? include("connect.php"); ?>
 <html lang="fr">
 <head>   
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />	

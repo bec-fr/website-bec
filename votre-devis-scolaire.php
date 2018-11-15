@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--<? include("connect.php"); ?>-->
+<? include("connect.php"); ?>
 <html lang="fr">
     <head>  
 	<meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, text/html; charset=iso-8859-1"> 
-        <title>Bec s�jours linguistiques - Votre devis scolaire personnalis�</title> 		
+        <title>Bec séjours linguistiques - Votre devis scolaire personnalisé</title> 		
         <meta name="keywords" content="Devis voyage scolaire" />
         <meta name="description" content="Recevez votre devis scolaire personnalis�">
         <meta name="author" content="BEC S�jours linguistiques">  
@@ -56,22 +56,6 @@
 		</STYLE>
         <script type="text/javascript" src="http://www.google.com/jsapi"></script>	
 		<link rel="stylesheet" type="text/css" href="js/datepicker/datepickr.min.css">
-		<script>
-		function verifForm(){
-		a="0";
-		
-		if (document.form.destination.value.length == 0) {alert('Vous n\'avez pas renseign� votre destination.'); a="1"; document.form.destination.focus();}	
-		else if ((document.form.nb_eleve.value.length == 0) && (document.form.nb_eleve2.value.length == 0) && (document.form.nb_eleve3.value.length == 0)) {alert('Vous n\'avez pas renseign� le nombre d\'eleves.'); a="1"; document.form.nb_eleve.focus();}	
-		else if (document.form.nb_adulte.value.length == 0) {alert('Vous n\'avez pas renseign� le nombre d\'encadrants.'); a="1"; document.form.nb_adulte.focus();}		
-		else if (document.form.nb_pc.value.length == 0) {alert('Vous n\'avez pas renseign� le nombre de PC.'); a="1"; document.form.nb_pc.focus();}
-		else if (document.form.date_debut.value.length == 0) {alert('Vous n\'avez pas renseign� la date de d�part.'); a="1"; document.form.date_debut.focus();}
-		
-		if (a == 0) {
-			document.form.ok.value = "1";
-			document.form.submit();
-		}
-	}
-</script>
 
 <!-- Facebook Pixel Code -->
 <!--<script>
@@ -627,5 +611,5 @@ var google_remarketing_only = true;
 (function(a,e,c,f,g,b,d){var h={ak:"971247872",cl:"w6h5CLPvw1wQgKKQzwM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
 </script>
 
- <!--? include("footer_scolaires.php"); ?-->          
+ <? include("footer_scolaires.php"); ?>          
 			
