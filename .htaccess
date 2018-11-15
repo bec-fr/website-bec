@@ -1,4 +1,4 @@
-RewriteEngine on
+RewriteEngine off
 
 
 RedirectPermanent /devis http://www.becfrance.com/devis_minis.php

@@ -34,11 +34,11 @@ $tel_site = "01 55 35 25 00";
 $fax_site = "01 42 60 36 55";
 $pays_site = "France";
 
-$img_mail_haut = "http://www.becfrance.com/images/mail_haut.jpg";
+//$img_mail_haut = "http://www.becfrance.com/images/mail_haut.jpg";
 //$img_mail_haut = "http://192.168.1.201/B/BEC_France/www/images/mail_haut.jpg";
 
 
-$tab_mois = array("janvier", "f�vrier", "mars", "avril", "mai", "juin", "juillet", "ao�t", "septembre", "octobre", "novembre", "d�cembre");
+$tab_mois = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
 $tab_jour = array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi");
 
 ?>

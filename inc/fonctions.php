@@ -96,19 +96,19 @@ function calcul_avoir($total, $code, $fiche=""){
 						}
 						$_SESSION['code'] = $code;				
 					}else{
-						echo "<script>alert('Pour utiliser ce code de réduction, il faut que le montant du séjour soit supérieur à ".$row['prix_mini']." €.');</script>";	
+						echo "<script>alert('Pour utiliser ce code de rï¿½duction, il faut que le montant du sï¿½jour soit supï¿½rieur ï¿½ ".$row['prix_mini']." ï¿½.');</script>";	
 						$_SESSION['code'] = "";
 					}
 				}else{
-					echo "<script>alert('Ce code de réduction n\'est pas valable pour ce séjour.');</script>";	
+					echo "<script>alert('Ce code de rï¿½duction n\'est pas valable pour ce sï¿½jour.');</script>";	
 					$_SESSION['code'] = "";
 				}
 			}else{
-				echo "<script>alert('Ce code de réduction n\'est plus valide.');</script>";	
+				echo "<script>alert('Ce code de rï¿½duction n\'est plus valide.');</script>";	
 				$_SESSION['code'] = "";
 			}
 		}else{
-			echo "<script>alert('Il n\'existe pas de réduction pour ce code.');</script>";
+			echo "<script>alert('Il n\'existe pas de rï¿½duction pour ce code.');</script>";
 			$_SESSION['code'] = "";
 		}
 	}
@@ -139,7 +139,7 @@ function appliquer_tva()
 		else
 		{
 			deconnexion();
-			echo "<script>alert('Vous devez être identifié pour accèder à cette partie.'); document.location.href='index.php';</script>";			
+			echo "<script>alert('Vous devez ï¿½tre identifiï¿½ pour accï¿½der ï¿½ cette partie.'); document.location.href='index.php';</script>";			
 		}
 	}
 	else
@@ -169,7 +169,7 @@ function appliquer_tva2($id_client)
 }
 
 
-//affichage des publicités
+//affichage des publicitï¿½s
 function pub($data_pub, $width="120", $height="300")
 {
 	mysql_query("UPDATE pub SET vu = vu+1 WHERE id = '".$data_pub["id"]."'");
@@ -235,7 +235,7 @@ function ajoutePoint($nb_point, $client, $type, $annonce="")
 
 
 // ----------------------------------------------------------------------------
-// Fonction pour mettre en forme les prix avec 2 décimals
+// Fonction pour mettre en forme les prix avec 2 dï¿½cimals
 // ----------------------------------------------------------------------------
 
 function parsePrix($str) {
@@ -252,7 +252,7 @@ function parsePrix($str) {
 }
 
 
-//fonction calculant l'âge
+//fonction calculant l'ï¿½ge
 function age($birthday)
 {
 	list($year, $month, $day) = split("-", $birthday);
@@ -276,7 +276,7 @@ function age($birthday)
 }//fin fonction age
 
 
-//vérifie si le texte donné comporte certains bout de texte non autorisé
+//vï¿½rifie si le texte donnï¿½ comporte certains bout de texte non autorisï¿½
 function verif_html($texte)
 {
 	if(strpos($texte, "<script") || strpos($texte, "<a") || strpos($texte, "<img"))
@@ -297,7 +297,7 @@ function html_off($text)
 	$text = str_replace("<br/>", "[saut_ligne]", $text);
 	$text = str_replace("<br />", "[saut_ligne]", $text);
 	
-	//on enlève toutes les balises HTML les balises HTML
+	//on enlï¿½ve toutes les balises HTML les balises HTML
 	$text = preg_replace("@<[\/\!]*?[^<>]*?>@si", "", $text);
 	
 	//on remet les saut de ligne
@@ -308,7 +308,7 @@ function html_off($text)
 
 
 // ----------------------------------------------------------------------------
-// Fonction pour bypasser les entrées
+// Fonction pour bypasser les entrï¿½es
 // ----------------------------------------------------------------------------
 
 function bypass($str) {
@@ -446,7 +446,7 @@ function mail_attachement($to, $sujet, $message, $fichier, $typemime, $nom, $fic
 
 
 // ----------------------------------------------------------------------------
-// Pour créer les select de date
+// Pour crï¿½er les select de date
 // ----------------------------------------------------------------------------
 function sel_date($type,$sel="",$from="1910") {
  switch ($type) {
@@ -482,7 +482,7 @@ function ValideMail($email) {
     else return 0;
 } 
 // ----------------------------------------------------------------------------
-// Récuperer l'adresse IP de l'internaute
+// Rï¿½cuperer l'adresse IP de l'internaute
 // ----------------------------------------------------------------------------
 function get_ip() {
     if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
@@ -507,7 +507,7 @@ function parseDate($date) {
   $tout = explode(" ",$date);
   $jour = explode("-",$tout[0]);
   $heure = explode(":",$tout[1]);
-  $retour = "$jour[2]/$jour[1]/$jour[0] à $heure[0]:$heure[1]:$heure[2]";
+  $retour = "$jour[2]/$jour[1]/$jour[0] ï¿½ $heure[0]:$heure[1]:$heure[2]";
  } else {
   $jour = explode("-",$date);
   $retour = "$jour[2]/$jour[1]/$jour[0]";
@@ -520,7 +520,7 @@ function parseDate2($date) {
   $tout = explode(" ",$date);
   $jour = explode("-",$tout[0]);
   $heure = explode(":",$tout[1]);
-  $retour = "$jour[2]/$jour[1] à $heure[0]:$heure[1]";
+  $retour = "$jour[2]/$jour[1] ï¿½ $heure[0]:$heure[1]";
  } else {
   $jour = explode("-",$date);
   $retour = "$jour[2]/$jour[1]";
@@ -533,7 +533,7 @@ function parseDate3($date) {
   $tout = explode(" ",$date);
   $jour = explode("-",$tout[0]);
   $heure = explode(":",$tout[1]);
-  $retour = $jour[2]."/".$jour[1]."/".substr($jour[0], 2, 4)." à ".$heure[0].":".$heure[1];
+  $retour = $jour[2]."/".$jour[1]."/".substr($jour[0], 2, 4)." ï¿½ ".$heure[0].":".$heure[1];
  } else {
   $jour = explode("-",$date);
   $retour = $jour[2]."/".$jour[1]."/".substr($jour[0], 2, 4);
@@ -546,7 +546,7 @@ function parseDate4($date) {
   $tout = explode(" ",$date);
   $jour = explode("-",$tout[0]);
   $heure = explode(":",$tout[1]);
-  $retour = "$jour[2]/$jour[1]/$jour[0] à $heure[0]:$heure[1]";
+  $retour = "$jour[2]/$jour[1]/$jour[0] ï¿½ $heure[0]:$heure[1]";
  } else {
   $jour = explode("-",$date);
   $retour = "$jour[2]/$jour[1]/$jour[0]";
@@ -576,8 +576,8 @@ function nav($nbr_page,$n_page,$count,$page,$plus_link) {
 			}
 		}
 		if($n_page!=$i){
-			echo "<td align=center valign=bottom class=nav width=30><a href=\"$page?page=0$plus_link\" title=\"Première page\"><img src=\"images/nav/nav_2fleche_gauche.gif\" border=0></a><br>&nbsp;</td>";
-			echo "<td align=center valign=bottom class=nav width=40><a href=\"$page?page=".($n_page-1)."$plus_link\" title=\"Page précédente\"><img src=\"images/nav/nav_fleche_gauche.gif\" border=0></a><br>&nbsp;</td>";
+			echo "<td align=center valign=bottom class=nav width=30><a href=\"$page?page=0$plus_link\" title=\"Premiï¿½re page\"><img src=\"images/nav/nav_2fleche_gauche.gif\" border=0></a><br>&nbsp;</td>";
+			echo "<td align=center valign=bottom class=nav width=40><a href=\"$page?page=".($n_page-1)."$plus_link\" title=\"Page prï¿½cï¿½dente\"><img src=\"images/nav/nav_fleche_gauche.gif\" border=0></a><br>&nbsp;</td>";
 		}
 		$j=0;		
 		while($i<$nb_page){			
@@ -594,7 +594,7 @@ function nav($nbr_page,$n_page,$count,$page,$plus_link) {
 		}
 		if($n_page!=($nb_page-1)){
 			echo "<td align=center valign=bottom class=nav width=40><a href=\"$page?page=".($n_page+1)."$plus_link\" title=\"Page suivante\"><img src=\"images/nav/nav_fleche_droite.gif\" border=0></a><br>&nbsp;</td>";
-			echo "<td align=center valign=bottom class=nav width=30><a href=\"$page?page=".($nb_page-1)."$plus_link\" title=\"Dernière page\"><img src=\"images/nav/nav_2fleche_droite.gif\" border=0></a><br>&nbsp;</td>";			
+			echo "<td align=center valign=bottom class=nav width=30><a href=\"$page?page=".($nb_page-1)."$plus_link\" title=\"Derniï¿½re page\"><img src=\"images/nav/nav_2fleche_droite.gif\" border=0></a><br>&nbsp;</td>";			
 		}
 		echo "</tr></table>";	
 	}
